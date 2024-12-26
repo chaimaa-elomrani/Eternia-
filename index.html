@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en" class="p-0 m-0">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Eternia for luxury accessories for men and women " />
+  <meta name="keywords" content="Eternia, accessories, men,women,independent" />
+  <meta name="author" content="CIMA team" />
+  <title>ETERNIA || Your Forever Begins Here</title>
+
+  <link rel="stylesheet" href="assets/css/tailwind/output.css" />
+  <link rel="icon" href="assets/images/Logo/Favicon/fav-32-eternia.png" type="image/x-icon" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Montaga&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body class="sm:w-full">
+  <header class="w-full absolute top-0 left-0 z-10">
+    <!-- Navbar -->
+    <nav class="relative">
+      <div class="px-4 mx-auto max-w-7xl">
+        <div class="flex items-center justify-between h-16">
+          <!-- Logo -->
+          <h1 onclick="window.location.href='index.html'" class="cursor-pointer text-2xl font-montaga text-outline">
+            E<span class="cursor-pointer hover:text-goldenrod"onclick="event.stopPropagation(); window.location.href='assets/html/Admin_page.html';">T</span>ERNIA
+          </h1>
+          
+
+          <!-- Menu Desktop -->
+          <div class="hidden md:flex items-center justify-between flex-1 pl-12">
+            <!-- Menu principal centré -->
+            <div class="flex-1 flex justify-center space-x-8 font-inria">
+              <a href="#" class="hover:text-gray-200 lg:hover:text-goldenrod/80 text-outline navbar-link">Bracelets</a>
+              <a href="#" class="hover:text-gray-200 lg:hover:text-goldenrod/80 text-outline navbar-link">Necklaces</a>
+              <a href="#" class="hover:text-gray-200 lg:hover:text-goldenrod/80 text-outline navbar-link">Rings</a>
+              <a href="#" class="hover:text-gray-200 lg:hover:text-goldenrod/80 text-outline navbar-link">Watches</a>
+            </div>
+
+            <!-- Menu droite (Us + Panier) -->
+            <div class="flex items-center space-x-8 font-inria">
+              <a href="assets/html/About_Contact.html"
+                class="hover:text-gray-200 lg:hover:text-goldenrod/80 text-outline">Us</a>
+                <button class="hover:text-gray-200 lg:hover:text-goldenrod/80 cart-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-6 text-white">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                  </svg>
+                </button>
+            </div>
+          </div>
+
+          <!-- Menu Mobile Button Cart -->
+          <div class="flex items-center space-x-4 md:hidden">
+            <a href="#" class="hover:text-gray-200">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="size-6 text-white">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+              </svg>
+            </a>
+            <button class="" id="menuButton">
+              <svg class="w-6 h-6 text-white" id="menuIcon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <!-- Menu Mobile -->
+        <div class="absolute left-0 hidden w-full md:hidden" id="mobileMenu">
+          <div class="flex flex-col items-center py-4 space-y-4 font-inria bg-white">
+            <a href="assets/html/All_Products.html" class=" hover:text-gray-200">Bracelets</a>
+            <a href="assets/html/All_Products.html" class=" hover:text-gray-200">Necklaces</a>
+            <a href="assets/html/All_Products.html" class=" hover:text-gray-200">Rings</a>
+            <a href="assets/html/All_Products.html" class=" hover:text-gray-200">Watches</a>
+            <a href="assets/html/About_Contact.html" class=" hover:text-gray-200">Us</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <!-- Conteneur carrousel -->
+      <div class="relative overflow-hidden">
+        <!-- Élément carrousel -->
+        <div class=" relative">
+          <!-- points de navigation -->
+          <div
+            class="carousel-dots m-1 cursor-pointer absolute z-10 left-1/2 transform -translate-x-1/2 bottom-16 justify-center hidden 442:flex space-x-2">
+          </div>
+          <!-- Conteneur interne-->
+          <div class="carousel-inner flex overflow-hidden lg:h-screen">
+            <!-- Première diapositive -->
+            <div class="slide flex-0 h-full transition-all duration-500 ease-in-out">
+              <img src="assets/images/Home Carroussel/pexels-andersbk-447570.jpg" alt="Image 1"
+                class="sm:w-full object-cover h-auto" />
+            </div>
+            <!-- Deuxième diapositive -->
+            <div class="slide flex-0 h-full transition-all duration-500 ease-in-out">
+              <img src="assets/images/Home Carroussel/pexels-cottonbro-9544231.jpg" alt="Image 2"
+                class="sm:w-full object-cover h-auto" />
+            </div>
+            <!-- Troisième diapositive -->
+            <div class="slide flex-0 h-full transition-all duration-500 ease-in-out">
+              <img src="assets/images/Home Carroussel/ruan-richard-rodrigues-41fdyYvSctY-unsplash.jpg" alt="Image 3"
+                class="sm:w-full object-cover h-auto" />
+            </div>
+          </div>
+        </div>
+
+        <!-- All Products -->
+        <div class="absolute z-10 left-[90%] transform -translate-x-1/2 bottom-10 top-[85%] hidden md:block">
+          <a href="assets/html/All_Products.html">
+            <h1 class="text-xl font-montaga text-white underline text-outline whitespace-nowrap">
+              All Products
+            </h1>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="elementOfNavbar">
+  <!-- Bracelet Products -->
+  <div class="product-section py-8" id="bracelets-container">
+    <div class="product-list grid grid-cols-4 gap-6 px-4 relative"
+      data-category="bracelets">
+      <!-- Products will be dynamically inserted -->
+    </div>
+  </div>
+
+  <!-- Necklace Products -->
+  <div class="product-section py-8" id="necklaces-container">
+    <div class="product-list grid grid-cols-4 gap-6 px-4 relative"
+      data-category="necklaces">
+      <!-- Products will be dynamically inserted -->
+    </div>
+  </div>
+
+  <!-- Ring Products -->
+  <div class="product-section py-8" id="rings-container">
+    <div class="product-list grid grid-cols-4 gap-6 px-4 relative"
+      data-category="rings">
+      <!-- Products will be dynamically inserted -->
+    </div>
+  </div>
+
+  <!-- Watch Products -->
+  <div class="product-section py-8" id="watches-container">
+    <div class="product-list grid grid-cols-4 gap-6 px-4 relative"
+      data-category="watches">
+      <!-- Products will be dynamically inserted -->
+    </div>
+  </div>
+</section>
+
+    <!-- ----------------   Best Sellers sections ------------>
+    <section>
+      <h1 class="text-3xl md:text-5xl font-montaga text-goldenrod p-4 mt-4 flex justify-center underline">
+        Best Sellers
+      </h1>
+    </section>
+    
+    <section class="best-sellers relative w-full min-h-screen p-4 sm:mb-40 md:mb-60">
+      <div class="best-seller-container relative w-full h-full">
+        <div id="card-container" class="gallery-grid relative w-full">
+          <!-- Bracelets Card -->
+          <div class="card card-bracelets">
+            <img src="" alt="Bracelets" class="w-full h-full object-cover transition-opacity duration-500">
+          </div>
+          
+          <!-- Watches Card -->
+          <div class="card card-watches">
+            <img src="" alt="Watches" class="w-full h-full object-cover transition-opacity duration-500">
+          </div>
+          
+          <!-- Necklaces Card -->
+          <div class="card card-necklaces">
+            <img src="" alt="Necklaces" class="w-full h-full object-cover transition-opacity duration-500">
+          </div>
+          
+          <!-- Rings Card -->
+          <div class="card card-rings">
+            <img src="" alt="Rings" class="w-full h-full object-cover transition-opacity duration-500">
+          </div>
+        </div>
+      </div>
+    </section>
+      <!-- --------------------------------------------------- -->
+      <section>
+        <a href="assets/html/All_Products.html">
+          <h1
+            class="text-5xl font-montaga text-goldenrod p-4 mt-4 mb-20 flex justify-center underline"
+          >→ Our collection</h1>
+        </a>
+      </section>
+
+      <section class="flex flex-col gap-10 p-8">
+        <!-- First Block -->
+        <div class="flex flex-col md:flex-row justify-between items-center gap-8">
+          <!-- Video on the Left -->
+          <div class="w-full md:w-1/2">
+            <div class="relative">
+              <video class="w-full h-auto rounded-lg" autoplay loop muted playsinline>
+                <source src="assets/videos/v1.mp4" type="video/mp4" />
+              </video>
+            </div>
+          </div>
+
+          <!-- Text on the Right -->
+          <div class="w-full md:w-1/2 text-center">
+            <h2 class="text-goldenrod font-montaga text-2xl italic mb-2">-- Eternia --</h2>
+            <p class="font-inria italic text-lg">"Timeless Luxury, Uniquely Yours"</p>
+          </div>
+        </div>
+
+        <!-- Second Block -->
+        <div class="flex flex-col md:flex-row justify-between items-center gap-8">
+          <!-- Text on the Left -->
+          <div class="w-full md:w-1/2 text-center">
+            <h2 class="text-goldenrod font-montaga text-2xl italic mb-2">-- Eternia --</h2>
+            <p class="font-inria italic text-lg">"Crafted for the Discerning"</p>
+          </div>
+
+          <!-- Video on the Right -->
+          <div class="w-full md:w-1/2">
+            <div class="relative">
+              <video class="w-full h-auto rounded-lg" autoplay loop muted playsinline>
+                <source src="assets/videos/v2.mp4" type="video/mp4" />
+              </video>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section newsletter -->
+      <section class="my-20">
+        <div class="mx-auto p-16 text-center bg-button_divs_background w-full shadow-lg">
+          <h1 class="text-3xl font-montaga mb-4 sm:text-4xl lg:text-5xl">Stay informed</h1>
+          <p
+            class="mb-6 sm:text-xl text-wrap md:text-2xl text-gray-700 font-inria whitespace-nowrap"
+          >
+            Subscribe to our newsletter to receive our latest news and special offers.
+          </p>
+
+          <form
+            id="newsletterForm"
+            class="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4"
+          >
+            <input
+              type="email"
+              name="email"
+              placeholder="Enter Email ..."
+              required
+              class="px-4 py-4 md:w-[42rem] w-full rounded text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            />
+            <button
+              type="submit"
+              class="px-6 py-4 bg-white text-black rounded transition-colors duration-300 font-inria"
+            >Register
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer section -->
+    <footer class="font-inria flex flex-col items-center mb-5 gap-4 px-3">
+      <a href="index.html"
+        ><img src="assets/images/Logo/logo-eternia-400-400.png" alt="" width="180" height="180"
+      /></a>
+      <div class="flex gap-4 text-goldenrod font-semibold text-xs sm:text-base lg:text-xl">
+        <a href="assets/html/All_Products.html">Our Catalog</a>
+        <a href="assets/html/About_Contact.html#contact-us">Contact Us</a>
+        <a href="assets/html/About_Contact.html">About Us</a>
+      </div>
+      <p class="font-montaga text-xs text-center sm:text-sm lg:text-xl">
+        &copy; Eternia 2024. No rights can be derived from the data presented on this site.
+      </p>
+      <div class="flex gap-4">
+        <img
+          class="cursor-pointer"
+          src="assets/images/Icons/facebook.svg"
+          alt="our facebook social media page"
+        />
+        <img
+          class="cursor-pointer"
+          src="assets/images/Icons/instagram.svg"
+          alt="our instagram social media page"
+        />
+        <img
+          class="cursor-pointer"
+          src="assets/images/Icons/twitter.svg"
+          alt="our twitter social media page"
+        />
+      </div>
+    </footer>
+    <script src="assets/js/Cart_pop_up.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html> 

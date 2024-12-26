@@ -1,0 +1,345 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Product Description Page Animation start */
+
+/* Testimonials Section */
+
+.testimonial-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.testimonial {
+  transition: all 0.5s ease;
+  opacity: 0.7;
+  transform: scale(0.9);
+}
+
+.testimonial.active {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.quote {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  position: absolute;
+  pointer-events: none;
+}
+
+.quote.active {
+  opacity: 1;
+}
+/* Product Description Page Animation end */
+
+
+/* Shipping estimator section : option function animation start */
+#country-list {
+    background-color: #f9fafb;
+    border: 1px solid;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+#country-list div {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    color: #4a5568;
+    border-bottom: 1px solid;
+}
+
+#country-list div:hover {
+    background-color: #e2e8f0;
+    color: #1a202c;
+}
+
+/* Shipping estimator section : option function animation end */
+
+/* Cart pop up fade-in and fade-out animations start */
+.fade-in {
+    animation: fadeIn 0.5s ease forwards;
+}
+
+.fade-out {
+    animation: fadeOut 0.5s ease forwards;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+/* Cart pop up fade-in and fade-out animations end */
+
+
+/* Cart items delete transition start */
+.trash {
+    fill: currentColor;
+    transition: fill 0.3s ease;
+}
+
+.self-end:hover .trash {
+    fill: red;
+}
+
+.trash:hover {
+    filter: invert(27%) sepia(84%) saturate(4675%) hue-rotate(353deg) brightness(97%) contrast(101%);
+}
+/* Cart items delete transition end */
+
+/* Checkout animation Button start */
+#purchase-animation text {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: line-draw 7s ease-in forwards;
+  }
+  
+@keyframes line-draw {
+to {
+    stroke-dashoffset: 0;
+}
+}
+/* Checkout animation Button end */
+
+
+
+/* stroke navbar */
+.text-outline {
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  color: white;
+}
+
+/* caroussel */
+
+
+.slide {
+  flex: 0 0 100%;
+  height: 100%;
+  transition: 0.5s ease-in-out;
+}
+
+.carousel-dots .dot {
+  border-radius: 50%;
+}
+.carousel-dots .active {
+  border: 10px solid #d19d0e !important;
+}
+.carousel-dots .inactive {
+  border: 10px solid rgba(255, 255, 255, 0.2);
+}
+
+/* card products */
+/* Masquer par défaut les sections de produits */
+.elementOfNavbar > div {
+    position: absolute;
+    top: 4rem; 
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0s 0.3s;
+    display: none; 
+}
+
+/* Afficher la section visible */
+.elementOfNavbar > div.visible {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.3s ease;
+    display: block;
+}
+
+  
+
+/* Styles personnalisés pour les animations  de la video*/
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  .animate-fadeIn {
+    opacity: 0;
+    animation: fadeIn 1s ease-out forwards;
+  }
+
+  
+
+/* Contrôler la taille de l'image prise dans la base de donnee*/
+.product-image {
+  width: 250px; 
+  height: 250px; 
+  object-fit: cover; 
+  border-radius: 5px; 
+}
+
+  
+.delay-100 {
+  animation-delay: 100ms;
+}
+  
+.input{
+    background: rgba(231, 205, 140, 0.29) ;
+}
+
+.button{
+    background-color: rgba(251, 214, 92, 1);
+    padding: 0.90rem;
+}
+/* ------------------------------------- */
+
+/* styles.css */
+.gallery-grid {
+  display: grid;
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+.card {
+  @apply relative overflow-hidden rounded-lg shadow-lg;
+  transition: transform 0.3s ease;
+}
+
+/* Current image fitting - contains whole image */
+.card img {
+  @apply w-full h-full object-cover;
+  transition: opacity 0.3s ease;
+}
+
+/* Alternative image fitting - to fill container completely */
+/* Just change object-cover to object-fill to see the difference */
+.card img {
+  @apply w-full h-full object-fill;
+  transition: opacity 0.3s ease;
+}
+
+/* Mobile First Design */
+@media (max-width: 639px) {
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .card {
+    height: 250px;
+    margin-bottom: 1rem;
+  }
+
+  .card-watches {
+    height: 400px;
+  }
+}
+
+/* Tablet and up - This layout will now remain consistent for all larger screens */
+/* Mobile First Design */
+@media (max-width: 639px) {
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .card {
+    height: 250px;
+    margin-bottom: 1rem;
+  }
+  .card-watches {
+    height: 400px;
+  }
+  .card-rings {
+    height: 350px;  /* Base height for mobile */
+  }
+}
+
+/* Tablet */
+@media (min-width: 640px) {
+  .best-sellers {
+    padding: 2rem;
+  }
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 300px;
+    gap: 2rem;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+  
+  .card-watches {
+    grid-row: span 2;
+    height: calc(600px + 2rem);
+  }
+  .card-rings {
+    grid-column: span 2;
+    height: 350px;  /* Base height for tablet */
+  }
+}
+
+/* Larger tablets and small laptops */
+@media (min-width: 768px) {
+  .card-rings {
+    height: 400px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .card-rings {
+    height: 450px;
+  }
+}
+
+/* Large Desktop */
+@media (min-width: 1280px) {
+  .card-rings {
+    height: 500px;
+  }
+}
+
+/* Hover Effects */
+@media (hover: hover) {
+  .card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  }
+}
+
+
+.button:hover{
+    background-color: rgb(246, 246, 159);
+} 
+
+
+.product-section {
+  overflow: hidden;
+  transition: height 0.3s ease, visibility 0.3s ease;
+}
+
+.product-section.hidden {
+  height: 0;
+  visibility: hidden;
+}
+
+.product-section.visible {
+  height: auto;
+  visibility: visible;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 1s ease-in-out;
+}

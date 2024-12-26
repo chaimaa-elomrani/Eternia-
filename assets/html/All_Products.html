@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Eternia for luxury accessories for men and women " />
+    <meta name="keywords" content="Eternia, accessories, men,women,independent" />
+    <meta name="author" content="CIMA team" />
+    <title>ETERNIA || Our Catalog</title>
+
+    <link rel="stylesheet" href="../css/tailwind/output.css" />
+    <link rel="icon" href="../images/Logo/Favicon/fav-32-eternia.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Montaga&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  
+  <body>
+    <header class=" bg-black top-0 mb-14">
+      <!-- Navbar -->
+      <nav class="relative">
+        <div class="px-4 mx-auto max-w-7xl">
+          <div class="flex items-center justify-between h-16">
+            <!-- Logo -->
+            <p onclick="window.location.href='../../index.html'" class="cursor-pointer text-2xl font-montaga text-outline">
+              E<span class="cursor-pointer hover:text-goldenrod" onclick="event.stopPropagation(); window.location.href='../html/Admin_page.html';">T</span>ERNIA
+            </p>
+    
+            <!-- Menu Desktop -->
+            <div class="hidden md:flex items-center justify-between flex-1 pl-12">
+              <!-- Menu principal centré -->
+              <div class="flex-1 invisible justify-center space-x-8 font-inria">
+                <a href="#" class=" hover:text-goldenrod text-outline navbar-link text-white">Bracelets</a>
+                <a href="#" class=" hover:text-goldenrod text-outline navbar-link text-white">Necklaces</a>
+                <a href="#" class=" hover:text-goldenrod text-outline navbar-link text-white">Rings</a>
+                <a href="#" class=" hover:text-goldenrod text-outline navbar-link text-white">Watches</a>
+              </div>
+    
+              <!-- Menu droite (Us + Panier) -->
+              <div class="flex items-center space-x-8 font-inria">
+                <a href="../html/About_Contact.html" class="hover:text-gray-200 lg:hover:text-goldenrod/80 text-outline text-white">Us</a>
+                <button class="hover:text-gray-200 lg:hover:text-goldenrod/80 cart-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-6 text-white">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+    
+            <!-- Menu Mobile Button Cart -->
+            <div class="flex items-center space-x-4 md:hidden">
+              <button class="hover:text-gray-200 lg:hover:text-goldenrod/80 cart-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-6 text-white">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                  </svg>
+                </button>
+              <button class="" id="menuButton">
+                <svg class="w-6 h-6 text-white" id="menuIcon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+              </button>
+            </div>
+          </div>
+    
+          <!-- Menu Mobile -->
+          <div class="absolute left-0 hidden w-full md:hidden" id="mobileMenu">
+            <div class="flex flex-col items-center py-4 space-y-4 font-inria bg-white">
+              <a href="../html/All_Products.html" class="hover:text-gray-200">Bracelets</a>
+              <a href="../html/All_Products.html" class="hover:text-gray-200">Necklaces</a>
+              <a href="../html/All_Products.html" class="hover:text-gray-200">Rings</a>
+              <a href="../html/All_Products.html" class="hover:text-gray-200">Watches</a>
+              <a href="../html/About_Contact.html" class="hover:text-gray-200">Us</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    
+    <!-- Dynamic Product Sections Container -->
+    <section class="elementOfNavbar w-full">
+      <!-- Bracelet Products -->
+      <div class="product-section w-full" id="bracelets-container">
+        <div class="product-list visible grid grid-cols-4 gap-6 px-4 py-8 relative bg-white"
+          data-category="bracelets">
+        </div>
+      </div>
+    
+      <!-- Necklace Products -->
+      <div class="product-section w-full" id="necklaces-container">
+        <div class="product-list visible grid grid-cols-4 gap-6 px-4 py-8 relative bg-white"
+          data-category="necklaces">
+        </div>
+      </div>
+    
+      <!-- Ring Products -->
+      <div class="product-section w-full" id="rings-container">
+        <div class="product-list visible grid grid-cols-4 gap-6 px-4 py-8 relative bg-white"
+          data-category="rings">
+        </div>
+      </div>
+    
+      <!-- Watch Products -->
+      <div class="product-section w-full" id="watches-container">
+        <div class="product-list visible grid grid-cols-4 gap-6 px-4 py-8 relative bg-white"
+          data-category="watches">
+        </div>
+      </div>
+    </section>
+
+
+    <main class="relative">
+      <section>
+        <div class="text-center my-10">
+          <div class="relative w-80 mx-auto">
+            <input 
+              id="search" 
+              class="border-2 border-gray-300 rounded-lg pl-4 pr-12 py-2 w-full focus:outline-none focus:ring-2 focus:ring-blue-500 transition" 
+              type="search" 
+              placeholder="Search..." 
+            />
+            <img 
+              src="../images/Icons/search.svg" 
+              alt="Search Icon" 
+              class="absolute right-3 top-1/2 transform -translate-y-1/2 w-5 h-5 pointer-events-none"
+            />
+          </div>
+        </div>
+
+        <div class="flex flex-wrap justify-center gap-4 text-center text-2xl font-medium font-inria max-lg:text-lg max-sm:text-xs cursor-pointer">
+          <span id="filtermen" class="px-10 underline max-md:px-4 max-sm:px-3">men</span>
+          <span id="filterwomen" class="px-10 underline max-md:px-4 max-sm:px-3">women</span>
+          <span id="filterprice" class="px-10 underline max-md:px-4 max-sm:px-3">price</span>
+          <span id="filtertitle" class="px-10 underline max-md:px-4 max-sm:px-3">title</span>
+          <span id="filtercategory" class="px-10 underline max-md:px-4 max-sm:px-3">category</span>
+        </div>
+      </section>
+
+      <section>
+        <div class="text-center my-14 text-5xl font-montaga max-md:text-3xl max-sm:text-xl">
+          <h1>Your Collection</h1>
+        </div>
+      </section>
+    
+      <section class="flex justify-center">
+        <div id="product_container" class="grid gap-6 grid-cols-4 grid-rows-4 w-11/12 font-inria max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1">
+        </div>
+      </section>
+    
+      <section>
+        <div class="flex justify-center font-inria my-10">
+          <span id="prevPage" class="px-3 cursor-pointer rounded-full text-xl self-center transition-all duration-200">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" class="fill-current text-gray-700 hover:text-yellow-500 transition-all duration-200">
+              <path d="M560-240 320-480l240-240 56 56-184 184 184 184-56 56Z" />
+            </svg>
+          </span>
+          <div id="paginationNumbers" class="flex items-center"></div>
+          <span id="nextPage" class="px-3 cursor-pointer rounded-full text-xl self-center transition-all duration-200">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" class="fill-current text-gray-700 hover:text-yellow-500 transition-all duration-200">
+              <path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z" />
+            </svg>
+          </span>
+        </div>
+      </section>
+      
+    </main>
+    
+    
+    <!-- footer section -->
+    <footer class="font-inria flex flex-col items-center mb-5 gap-4 px-3">
+      <a href="../../index.html"><img src="../images/Logo/logo-eternia-400-400.png" alt="" width="180" height="180"></a>
+      <div class="flex gap-4 text-goldenrod font-semibold text-xs sm:text-base lg:text-xl">
+          <a href="../../index.html">Home</a>
+          <a href="../html/About_Contact.html#contact-us">Contact Us</a>
+          <a href="../html/About_Contact.html">About Us</a>
+      </div>
+      <P class="font-montaga text-xs text-center sm:text-sm lg:text-xl">&copy; Eternia 2024.  No rights can be derived from the data presented on this site.</P>
+      <div class="flex gap-4">
+          <img class="cursor-pointer" src="../images/Icons/facebook.svg" alt="our facebook social media page">
+          <img class="cursor-pointer" src="../images/Icons/instagram.svg" alt="our instagram social media page">
+          <img class="cursor-pointer" src="../images/Icons/twitter.svg" alt="our twitter social media page">
+      </div>
+  </footer>
+
+    <!-- <script src="../js/header.js"></script> -->
+    <script src="../js/All_products.js"></script>
+    <script src="../js/Cart_pop_up.js"></script>
+  </body>
+</html>

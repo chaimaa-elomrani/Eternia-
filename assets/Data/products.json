@@ -1,0 +1,1358 @@
+{
+  "products": [
+    {
+      "id": "Eternia-9R8T3D2K",
+      "name": "Chronos Infinity",
+      "category": "Watches",
+      "description": "A masterpiece of precision and luxury, this timepiece combines timeless elegance with innovative craftsmanship.",
+      "price": 5899,
+      "inStock": false,
+      "promotion": "Crafted with high-quality materials, this watch is perfect for adding elegance and sophistication to any style.",
+      "images": [
+        "../images/Products/Watches/Men/Product%201/WMP1-1.jpg",
+        "../images/Products/Watches/Men/Product%201/WMP1-2.jpg",
+        "../images/Products/Watches/Men/Product%201/WMP1-3.jpg"
+      ],
+      "bestSeller": true,
+      "gender": "Men"
+    },
+    {
+      "id": "Eternia-9X1J6Q9P",
+      "name": "Vanguard Supreme",
+      "category": "Watches",
+      "description": "With its bold design and superior technology, the Vanguard Supreme redefines luxury timekeeping.",
+      "price": 4599,
+      "inStock": true,
+      "promotion": "This watch exudes strength and sophistication, ideal for those who demand both style and performance.",
+      "images": [
+        "../images/Products/Watches/Men/Product%202/WMP2-3.webp",
+        "../images/Products/Watches/Men/Product%202/WMP2-2.webp",
+        "../images/Products/Watches/Men/Product%202/WMP2-1.webp",
+        "../images/Products/Watches/Men/Product%202/WMP2-4.webp"
+      ],
+      "bestSeller": true,
+      "gender": "Men"
+    },
+    {
+      "id": "Eternia-9K4M2H1T",
+      "name": "Eclipse Masterpiece",
+      "category": "Watches",
+      "description": "A watch that symbolizes the perfect balance of power and elegance, inspired by celestial events.",
+      "price": 5299,
+      "inStock": true,
+      "promotion": "Designed for those who seek refinement in every aspect of their life, this timepiece radiates luxury.",
+      "images": [
+        "../images/Products/Watches/Men/Product%203/WMP3-3.webp",
+        "../images/Products/Watches/Men/Product%203/WMP3-2.webp",
+        "../images/Products/Watches/Men/Product%203/WMP3-1.webp",
+        "../images/Products/Watches/Men/Product%203/WMP3-4.webp"
+      ],
+      "bestSeller": false,
+      "gender": "Men"
+    },
+    {
+      "id": "Eternia-9C2P5N8X",
+      "name": "Titanium Royale",
+      "category": "Watches",
+      "description": "Crafted from durable titanium, this watch is built for adventure, yet maintains a refined, timeless aesthetic.",
+      "price": 6499,
+      "inStock": true,
+      "promotion": "Built to last, the Titanium Royale is a true statement of both rugged durability and sophistication.",
+      "images": [
+        "../images/Products/Watches/Men/Product%204/WMP4-2.webp",
+        "../images/Products/Watches/Men/Product%204/WMP4-1.webp",
+        "../images/Products/Watches/Men/Product%204/WMP4-3.webp"
+      ],
+      "bestSeller": true,
+      "gender": "Men"
+    },
+    {
+      "id": "Eternia-9V6X3L5G",
+      "name": "Raven Black",
+      "category": "Watches",
+      "description": "A sleek and mysterious timepiece, the Raven Black is perfect for those who want to stand out with understated luxury.",
+      "price": 3999,
+      "inStock": true,
+      "promotion": "Subtle yet bold, this watch exudes an air of mystery and sophistication for the discerning individual.",
+      "images": [
+        "../images/Products/Watches/Men/Product%205/WMP5-3.webp",
+        "../images/Products/Watches/Men/Product%205/WMP5-2.webp",
+        "../images/Products/Watches/Men/Product%205/WMP5-1.webp",
+        "../images/Products/Watches/Men/Product%205/WMP5-4.webp"
+      ],
+      "bestSeller": true,
+      "gender": "Men"
+    },
+    {
+      "id": "Eternia-9M4N9J2H",
+      "name": "Ember Glow",
+      "category": "Watches",
+      "description": "With a fiery glow that catches the light, the Ember Glow is a watch for those who appreciate vibrant sophistication.",
+      "price": 4699,
+      "inStock": false,
+      "promotion": "Crafted with intricate details and premium materials, this watch will make a lasting impression wherever you go.",
+      "images": [
+        "../images/Products/Watches/Men/Product%206/WMP6-4.webp",
+        "../images/Products/Watches/Men/Product%206/WMP6-2.webp",
+        "../images/Products/Watches/Men/Product%206/WMP6-1.webp",
+        "../images/Products/Watches/Men/Product%206/WMP6-3.webp",
+        "../images/Products/Watches/Men/Product%206/WMP6-5.webp"
+      ],
+      "bestSeller": false,
+      "gender": "Men"
+    },
+    {
+      "id": "Eternia-9Q7S1P6L",
+      "name": "Silver Horizon",
+      "category": "Watches",
+      "description": "Inspired by the horizon's beauty, this timepiece offers clarity, simplicity, and modern luxury.",
+      "price": 4999,
+      "inStock": true,
+      "promotion": "A minimalist yet refined design, perfect for those who appreciate luxury in its simplest form.",
+      "images": [
+        "../images/Products/Watches/Men/Product%207/WMP7-1.webp",
+        "../images/Products/Watches/Men/Product%207/WMP7-2.webp",
+        "../images/Products/Watches/Men/Product%207/WMP7-3.webp",
+        "../images/Products/Watches/Men/Product%207/WMP7-4.webp"
+      ],
+      "bestSeller": false,
+      "gender": "Men"
+    },
+    {
+      "id": "Eternia-9B1J6D2F",
+      "name": "Titan's Crown",
+      "category": "Watches",
+      "description": "A timepiece that blends power and prestige, the Titan's Crown is a true statement of strength and luxury.",
+      "price": 5699,
+      "inStock": true,
+      "promotion": "The Titan's Crown stands as a symbol of triumph, designed for the modern man who demands excellence.",
+      "images": [
+        "../images/Products/Watches/Men/Product%208/WMP8-1.webp",
+        "../images/Products/Watches/Men/Product%208/WMP8-2.webp",
+        "../images/Products/Watches/Men/Product%208/WMP8-3.webp"
+      ],
+      "bestSeller": true,
+      "gender": "Men"
+    },
+    {
+      "id": "Eternia-9S3V1K5Q",
+      "name": "Apex Monarch",
+      "category": "Watches",
+      "description": "The Apex Monarch is a sophisticated timepiece, blending classic elegance with modern engineering.",
+      "price": 6499,
+      "inStock": false,
+      "promotion": "Perfect for the distinguished gentleman, this watch boasts both style and functionality, embodying the essence of luxury.",
+      "images": [
+        "../images/Products/Watches/Men/Product%209/WMP9-1.webp",
+        "../images/Products/Watches/Men/Product%209/WMP9-2.webp",
+        "../images/Products/Watches/Men/Product%209/WMP9-3.webp",
+        "../images/Products/Watches/Men/Product%209/WMP9-4.webp",
+        "../images/Products/Watches/Men/Product%209/WMP9-5.webp"
+      ],
+      "bestSeller": false,
+      "gender": "Men"
+    },
+    {
+      "id": "Eternia-9R6P2J7S",
+      "name": "Stormbreaker Elite",
+      "category": "Watches",
+      "description": "Crafted for the adventurous soul, the Stormbreaker Elite is designed for durability and timeless style.",
+      "price": 5399,
+      "inStock": true,
+      "promotion": "Built to endure the elements, this watch is for those who demand the best in both form and function.",
+      "images": [
+        "../images/Products/Watches/Men/Product%2010/WMP10-1.jpg",
+        "../images/Products/Watches/Men/Product%2010/WMP10-2.jpg",
+        "../images/Products/Watches/Men/Product%2010/WMP10-3.jpg"
+      ],
+      "bestSeller": true,
+      "gender": "Men"
+    },
+    {
+      "id": "Eternia-9G3H2M5A",
+      "name": "Luminous Embrace",
+      "category": "Watches",
+      "description": "A timepiece that radiates elegance, combining sleek design with the brilliance of shimmering diamonds.",
+      "price": 3199,
+      "inStock": true,
+      "promotion": "Crafted with high-quality materials, this piece showcases timeless design and durability, perfect for adding elegance and sophistication to any style.",
+      "images": [
+        "../images/Products/Watches/Women/Product%201/WWP1-1.jpg",
+        "../images/Products/Watches/Women/Product%201/WWP1-2.jpg",
+        "../images/Products/Watches/Women/Product%201/WWP1-3.jpg",
+        "../images/Products/Watches/Women/Product%201/WWP1-4.jpg"
+      ],
+      "bestSeller": true,
+      "gender": "Women"
+    },
+    {
+      "id": "Eternia-9B2L4N6C",
+      "name": "Astra Elegance",
+      "category": "Watches",
+      "description": "Inspired by the stars, this watch features a delicate balance of style and precision, making it a true symbol of luxury.",
+      "price": 3499,
+      "inStock": true,
+      "promotion": "A refined design made for the modern woman, combining sophistication with durability for a watch that stands the test of time.",
+      "images": [
+        "../images/Products/Watches/Women/Product%202/WWP2-1.webp",
+        "../images/Products/Watches/Women/Product%202/WWP2-2.webp",
+        "../images/Products/Watches/Women/Product%202/WWP2-3.webp",
+        "../images/Products/Watches/Women/Product%202/WWP2-4.webp",
+        "../images/Products/Watches/Women/Product%202/WWP2-5.webp",
+        "../images/Products/Watches/Women/Product%202/WWP2-6.webp"
+      ],
+      "bestSeller": false,
+      "gender": "Women"
+    },
+    {
+      "id": "Eternia-9K5D8S3J",
+      "name": "Opal Reverie",
+      "category": "Watches",
+      "description": "A luxurious timepiece designed with an opalescent dial that captures light beautifully, perfect for those who appreciate understated elegance.",
+      "price": 3999,
+      "inStock": false,
+      "promotion": "With a stunning design, this watch evokes a sense of timeless beauty, crafted to elevate any wardrobe.",
+      "images": [
+        "../images/Products/Watches/Women/Product%203/WWP3-1.webp",
+        "../images/Products/Watches/Women/Product%203/WWP3-2.webp",
+        "../images/Products/Watches/Women/Product%203/WWP3-3.webp",
+        "../images/Products/Watches/Women/Product%203/WWP3-4.webp",
+        "../images/Products/Watches/Women/Product%203/WWP3-5.webp",
+        "../images/Products/Watches/Women/Product%203/WWP3-6.webp"
+      ],
+      "bestSeller": false,
+      "gender": "Women"
+    },
+    {
+      "id": "Eternia-9V3W2C4P",
+      "name": "Celestial Allure",
+      "category": "Watches",
+      "description": "Inspired by the enchanting allure of the moon and stars, this watch offers elegance with a cosmic touch.",
+      "price": 4899,
+      "inStock": true,
+      "promotion": "Crafted from the finest materials, the design embraces the beauty of celestial motifs, making it a luxurious piece for any occasion.",
+      "images": [
+        "../images/Products/Watches/Women/Product%204/WWP4-1.jpg",
+        "../images/Products/Watches/Women/Product%204/WWP4-2.jpg",
+        "../images/Products/Watches/Women/Product%204/WWP4-3.jpg",
+        "../images/Products/Watches/Women/Product%204/WWP4-4.jpg"
+      ],
+      "bestSeller": true,
+      "gender": "Women"
+    },
+    {
+      "id": "Eternia-9R6E7T1B",
+      "name": "Golden Halo",
+      "category": "Watches",
+      "description": "A refined, minimalistic watch that features a gleaming halo around the dial, radiating luxury and grace.",
+      "price": 4399,
+      "inStock": true,
+      "promotion": "This high-end timepiece merges simplicity with glamour, making it perfect for both casual and formal wear.",
+      "images": [
+        "../images/Products/Watches/Women/Product%205/WWP5-1.jpg",
+        "../images/Products/Watches/Women/Product%205/WWP5-2.jpg",
+        "../images/Products/Watches/Women/Product%205/WWP5-3.jpg"
+      ],
+      "bestSeller": false,
+      "gender": "Women"
+    },
+    {
+      "id": "Eternia-9J7X4K3L",
+      "name": "Eternal Symphony",
+      "category": "Watches",
+      "description": "A masterpiece of horology, blending intricate details with luxurious finishes, designed for those who appreciate the finer things in life.",
+      "price": 5999,
+      "inStock": true,
+      "promotion": "Every element of this watch is carefully crafted, offering timeless beauty and lasting durability.",
+      "images": [
+        "../images/Products/Watches/Women/Product%206/WWP6-1.jpg",
+        "../images/Products/Watches/Women/Product%206/WWP6-2.jpg",
+        "../images/Products/Watches/Women/Product%206/WWP6-3.jpg"
+      ],
+      "bestSeller": true,
+      "gender": "Women"
+    },
+    {
+      "id": "Eternia-9D3P8T2V",
+      "name": "Moonlit Mirage",
+      "category": "Watches",
+      "description": "A watch that combines elegance and mystery, with a silver-tone dial and delicate design details that evoke the beauty of a moonlit night.",
+      "price": 3299,
+      "inStock": true,
+      "promotion": "Sleek and stylish, this watch adds a touch of ethereal grace to any outfit, embodying luxury in every detail.",
+      "images": [
+        "../images/Products/Watches/Women/Product%207/WWP7-1.webp",
+        "../images/Products/Watches/Women/Product%207/WWP7-2.webp",
+        "../images/Products/Watches/Women/Product%207/WWP7-3.webp",
+        "../images/Products/Watches/Women/Product%207/WWP7-4.webp"
+      ],
+      "bestSeller": false,
+      "gender": "Women"
+    },
+    {
+      "id": "Eternia-9S5A4T7Q",
+      "name": "Diamond Serenity",
+      "category": "Watches",
+      "description": "A truly serene and luxurious timepiece, featuring diamond accents that catch the light and elevate its understated beauty.",
+      "price": 5299,
+      "inStock": true,
+      "promotion": "With its sophisticated design and elegant finish, this watch is perfect for those who value both beauty and precision.",
+      "images": [
+        "../images/Products/Watches/Women/Product%208/WWP8-1.jpg",
+        "../images/Products/Watches/Women/Product%208/WWP8-2.jpg",
+        "../images/Products/Watches/Women/Product%208/WWP8-3.jpg"
+      ],
+      "bestSeller": true,
+      "gender": "Women"
+    },
+    {
+      "id": "Eternia-9M3Q8L2V",
+      "name": "Velvet Moon",
+      "category": "Watches",
+      "description": "A rich, velvety timepiece with a dark, luxurious dial and gleaming rose gold details, perfect for those who desire elegance with a touch of mystery.",
+      "price": 4699,
+      "inStock": false,
+      "promotion": "Designed for sophistication and beauty, this watch exudes luxury with every glance.",
+      "images": [
+        "../images/Products/Watches/Women/Product%209/WWP9-1.webp",
+        "../images/Products/Watches/Women/Product%209/WWP9-2.webp",
+        "../images/Products/Watches/Women/Product%209/WWP9-3.webp",
+        "../images/Products/Watches/Women/Product%209/WWP9-4.webp",
+        "../images/Products/Watches/Women/Product%209/WWP9-5.webp",
+        "../images/Products/Watches/Women/Product%209/WWP9-6.webp"
+      ],
+      "bestSeller": false,
+      "gender": "Women"
+    },
+    {
+      "id": "Eternia-9L6J2T1N",
+      "name": "Regal Charm",
+      "category": "Watches",
+      "description": "A watch that combines modern design with royal charm, featuring a sleek case and an elegant, refined band.",
+      "price": 5499,
+      "inStock": true,
+      "promotion": "Perfect for those who enjoy luxury with a classic flair, this piece will elevate any occasion with its royal appeal.",
+      "images": [
+        "../images/Products/Watches/Women/Product%2010/WWP10-1.webp",
+        "../images/Products/Watches/Women/Product%2010/WWP10-2.webp",
+        "../images/Products/Watches/Women/Product%2010/WWP10-3.webp",
+        "../images/Products/Watches/Women/Product%2010/WWP10-4.webp",
+        "../images/Products/Watches/Women/Product%2010/WWP10-5.webp",
+        "../images/Products/Watches/Women/Product%2010/WWP10-6.webp"
+      ],
+      "bestSeller": true,
+      "gender": "Women"
+    },
+    {
+      "id": "Eternia-9A7G5K2P",
+      "name": "Regal Horizon",
+      "category": "Necklaces",
+      "description": "A symbol of strength and luxury, the Regal Horizon necklace features a bold, yet refined design perfect for the modern man of distinction.",
+      "price": 3999,
+      "inStock": true,
+      "promotion": "Crafted with high-quality materials, this piece embodies elegance and durability, adding sophistication to any ensemble.",
+      "images": [
+        "../images/Products/Necklaces/Men/Product%201/NMP1-1.webp",
+        "../images/Products/Necklaces/Men/Product%201/NMP1-2.webp",
+        "../images/Products/Necklaces/Men/Product%201/NMP1-3.webp",
+        "../images/Products/Necklaces/Men/Product%201/NMP1-4.webp",
+        "../images/Products/Necklaces/Men/Product%201/NMP1-5.webp",
+        "../images/Products/Necklaces/Men/Product%201/NMP1-6.webp"
+      ],
+      "bestSeller": true,
+      "gender": "Men"
+    },
+    {
+      "id": "Eternia-9B4F2J6H",
+      "name": "Aether Blaze",
+      "category": "Necklaces",
+      "description": "A necklace inspired by the ethereal beauty of fire and light, Aether Blaze is a statement piece for the bold and fearless.",
+      "price": 4599,
+      "inStock": true,
+      "promotion": "Made with premium materials, this necklace is the perfect accessory for those who seek adventure and elegance.",
+      "images": [
+        "../images/Products/Necklaces/Men/Product%202/NMP2-2.webp",
+        "../images/Products/Necklaces/Men/Product%202/NMP2-3.webp",
+        "../images/Products/Necklaces/Men/Product%202/NMP2-1.webp",
+        "../images/Products/Necklaces/Men/Product%202/NMP2-4.webp",
+        "../images/Products/Necklaces/Men/Product%202/NMP2-5.webp"
+      ],
+      "bestSeller": false,
+      "gender": "Men"
+    },
+    {
+      "id": "Eternia-9K3M6L8D",
+      "name": "Titanium Dawn",
+      "category": "Necklaces",
+      "description": "A necklace crafted from rare materials, combining the strength of titanium with the grace of dawn's first light.",
+      "price": 5099,
+      "inStock": true,
+      "promotion": "This timeless piece is designed to offer unmatched durability and elegance, elevating your style effortlessly.",
+      "images": [
+        "../images/Products/Necklaces/Men/Product%203/NMP3-1.jpg",
+        "../images/Products/Necklaces/Men/Product%203/NMP3-2.jpg",
+        "../images/Products/Necklaces/Men/Product%203/NMP3-3.jpg",
+        "../images/Products/Necklaces/Men/Product%203/NMP3-4.jpg"
+      ],
+      "bestSeller": true,
+      "gender": "Men"
+    },
+    {
+      "id": "Eternia-9Q5N1V3X",
+      "name": "Eclipse Vanguard",
+      "category": "Necklaces",
+      "description": "A luxurious necklace inspired by the cosmic dance of the sun and moon, this piece signifies the power of balance and light.",
+      "price": 5299,
+      "inStock": true,
+      "promotion": "Bold and captivating, the Eclipse Vanguard is designed for those who embrace both the strength and beauty of the universe.",
+      "images": [
+        "../images/Products/Necklaces/Men/Product%204/NMP4-1.jpg",
+        "../images/Products/Necklaces/Men/Product%204/NMP4-2.jpg",
+        "../images/Products/Necklaces/Men/Product%204/NMP4-3.jpg",
+        "../images/Products/Necklaces/Men/Product%204/NMP4-4.jpg"
+      ],
+      "bestSeller": false,
+      "gender": "Men"
+    },
+    {
+      "id": "Eternia-9W6P3F9M",
+      "name": "Celestial Sovereign",
+      "category": "Necklaces",
+      "description": "A necklace fit for royalty, inspired by the celestial realms, featuring intricate designs and radiant details.",
+      "price": 6499,
+      "inStock": true,
+      "promotion": "Elegance and regality combine in this unique necklace, crafted to perfection for those who demand the finest.",
+      "images": [
+        "../images/Products/Necklaces/Men/Product%205/NMP5-1.jpg",
+        "../images/Products/Necklaces/Men/Product%205/NMP5-2.jpg",
+        "../images/Products/Necklaces/Men/Product%205/NMP5-3.jpg"
+      ],
+      "bestSeller": true,
+      "gender": "Men"
+    },
+    {
+      "id": "Eternia-9R7T4L1C",
+      "name": "Obsidian Legacy",
+      "category": "Necklaces",
+      "description": "An obsidian-based necklace that evokes strength and mystery, designed for the man who values both power and subtlety.",
+      "price": 4899,
+      "inStock": false,
+      "promotion": "Crafted from the rarest materials, the Obsidian Legacy is an enduring symbol of elegance and resilience.",
+      "images": [
+        "../images/Products/Necklaces/Men/Product%206/NMP6-1.webp",
+        "../images/Products/Necklaces/Men/Product%206/NMP6-2.webp",
+        "../images/Products/Necklaces/Men/Product%206/NMP6-3.webp",
+        "../images/Products/Necklaces/Men/Product%206/NMP6-4.webp",
+        "../images/Products/Necklaces/Men/Product%206/NMP6-5.webp",
+        "../images/Products/Necklaces/Men/Product%206/NMP6-6.webp"
+      ],
+      "bestSeller": false,
+      "gender": "Men"
+    },
+    {
+      "id": "Eternia-9D3S9C2R",
+      "name": "Vanguard Essence",
+      "category": "Necklaces",
+      "description": "The Vanguard Essence necklace blends classic design with modern sophistication, creating a timeless look for the discerning gentleman.",
+      "price": 4099,
+      "inStock": true,
+      "promotion": "With unmatched craftsmanship, this necklace is a bold statement of style, grace, and power.",
+      "images": [
+        "../images/Products/Necklaces/Men/Product%207/NMP7-2.webp",
+        "../images/Products/Necklaces/Men/Product%207/NMP7-1.webp",
+        "../images/Products/Necklaces/Men/Product%207/NMP7-1.webp",
+        "../images/Products/Necklaces/Men/Product%207/NMP7-4.webp",
+        "../images/Products/Necklaces/Men/Product%207/NMP7-5.webp"
+      ],
+      "bestSeller": true,
+      "gender": "Men"
+    },
+    {
+      "id": "Eternia-9J1W8B4L",
+      "name": "Arcadian Dream",
+      "category": "Necklaces",
+      "description": "A luxurious necklace designed to embody dreams of faraway lands, featuring intricate detailing and sophisticated materials.",
+      "price": 5999,
+      "inStock": true,
+      "promotion": "The Arcadian Dream necklace is perfect for those who seek elegance and comfort with a touch of mystery.",
+      "images": [
+        "../images/Products/Necklaces/Men/Product%208/NMP8-1.webp",
+        "../images/Products/Necklaces/Men/Product%208/NMP8-2.webp",
+        "../images/Products/Necklaces/Men/Product%208/NMP8-3.webp"
+      ],
+      "bestSeller": false,
+      "gender": "Men"
+    },
+    {
+      "id": "Eternia-9M2Q7H5P",
+      "name": "Sapphire Monarch",
+      "category": "Necklaces",
+      "description": "Inspired by royal blue sapphires, this necklace features precious stones, blending opulence with a sense of timeless beauty.",
+      "price": 7499,
+      "inStock": true,
+      "promotion": "Crafted with the finest sapphires, this necklace exudes a regal charm that is perfect for any sophisticated gentleman.",
+      "images": [
+        "../images/Products/Necklaces/Men/Product%209/NMP9-1.webp",
+        "../images/Products/Necklaces/Men/Product%209/NMP9-2.webp",
+        "../images/Products/Necklaces/Men/Product%209/NMP9-3.webp",
+        "../images/Products/Necklaces/Men/Product%209/NMP9-4.webp",
+        "../images/Products/Necklaces/Men/Product%209/NMP9-5.webp"
+      ],
+      "bestSeller": true,
+      "gender": "Men"
+    },
+    {
+      "id": "Eternia-9T5B2F1N",
+      "name": "Nocturnal Aura",
+      "category": "Necklaces",
+      "description": "A necklace that captures the essence of the night sky, featuring dark stones that shimmer with hidden light.",
+      "price": 6999,
+      "inStock": true,
+      "promotion": "With a design inspired by the mysteries of the night, this piece adds a subtle yet captivating allure to your collection.",
+      "images": [
+        "../images/Products/Necklaces/Men/Product%2010/NMP10-1.webp",
+        "../images/Products/Necklaces/Men/Product%2010/NMP10-2.webp",
+        "../images/Products/Necklaces/Men/Product%2010/NMP10-3.webp",
+        "../images/Products/Necklaces/Men/Product%2010/NMP10-4.webp",
+        "../images/Products/Necklaces/Men/Product%2010/NMP10-5.webp"
+      ],
+      "bestSeller": false,
+      "gender": "Men"
+    },
+    {
+      "id": "Eternia-9A3G6K8B",
+      "name": "Serenity Charm",
+      "category": "Necklaces",
+      "description": "An enchanting necklace designed with a charm that symbolizes serenity and inner peace.",
+      "price": 3199,
+      "inStock": true,
+      "promotion": "Crafted with exquisite detail, this piece blends luxury with elegance, perfect for adding calm sophistication to any occasion.",
+      "images": [
+        "../images/Products/Necklaces/Women/Product%201/NWP1-1.jpg",
+        "../images/Products/Necklaces/Women/Product%201/NWP1-2.jpg",
+        "../images/Products/Necklaces/Women/Product%201/NWP1-3.jpg"
+      ],
+      "bestSeller": true,
+      "gender": "Women"
+    },
+    {
+      "id": "Eternia-9F2Q7R9D",
+      "name": "Twilight Elegance",
+      "category": "Necklaces",
+      "description": "Inspired by the mystical hues of twilight, this necklace features delicate gems set to shimmer like the stars.",
+      "price": 3999,
+      "inStock": false,
+      "promotion": "Designed for those who seek elegance with a touch of celestial wonder, this piece brings an aura of mystery and grace.",
+      "images": [
+        "../images/Products/Necklaces/Women/Product%202/NWP2-1.jpg",
+        "../images/Products/Necklaces/Women/Product%202/NWP2-2.jpg",
+        "../images/Products/Necklaces/Women/Product%202/NWP2-3.jpg"
+      ],
+      "bestSeller": false,
+      "gender": "Women"
+    },
+    {
+      "id": "Eternia-9J4B2L6Y",
+      "name": "Elysian Glow",
+      "category": "Necklaces",
+      "description": "A necklace that evokes the beauty of eternal light, featuring a glowing pendant crafted from the finest materials.",
+      "price": 4999,
+      "inStock": true,
+      "promotion": "This radiant piece symbolizes purity and luxury, designed to make a statement with every wear.",
+      "images": [
+        "../images/Products/Necklaces/Women/Product%203/NWP3-1.jpg",
+        "../images/Products/Necklaces/Women/Product%203/NWP3-2.jpg",
+        "../images/Products/Necklaces/Women/Product%203/NWP3-3.jpg"
+      ],
+      "bestSeller": true,
+      "gender": "Women"
+    },
+    {
+      "id": "Eternia-9Z5W7P2M",
+      "name": "Crystal Reverie",
+      "category": "Necklaces",
+      "description": "A stunning piece that captures the dream-like quality of crystal, perfect for adding an ethereal touch to any ensemble.",
+      "price": 4299,
+      "inStock": true,
+      "promotion": "Crafted from the finest crystals, this necklace is a timeless expression of beauty and grace.",
+      "images": [
+        "../images/Products/Necklaces/Women/Product%204/NWP4-1.jpg",
+        "../images/Products/Necklaces/Women/Product%204/NWP4-2.jpg",
+        "../images/Products/Necklaces/Women/Product%204/NWP4-3.jpg"
+      ],
+      "bestSeller": false,
+      "gender": "Women"
+    },
+    {
+      "id": "Eternia-9H8S6M1V",
+      "name": "Golden Halo",
+      "category": "Necklaces",
+      "description": "A breathtaking necklace featuring a radiant halo design, symbolizing purity and divine beauty.",
+      "price": 5599,
+      "inStock": true,
+      "promotion": "This luxurious necklace brings the elegance of the divine into every moment, designed for those who seek excellence.",
+      "images": [
+        "../images/Products/Necklaces/Women/Product%205/NWP5-1.jpg",
+        "../images/Products/Necklaces/Women/Product%205/NWP5-2.jpg",
+        "../images/Products/Necklaces/Women/Product%205/NWP5-3.jpg"
+      ],
+      "bestSeller": true,
+      "gender": "Women"
+    },
+    {
+      "id": "Eternia-9N2D8X3Y",
+      "name": "Luxe Vortex",
+      "category": "Necklaces",
+      "description": "An intricate design that spirals into a vortex of luxury, capturing the essence of modern elegance.",
+      "price": 5999,
+      "inStock": true,
+      "promotion": "Made from the highest quality materials, this necklace captures the spirit of sophistication and timeless allure.",
+      "images": [
+        "../images/Products/Necklaces/Women/Product%206/NWP6-2.jpg",
+        "../images/Products/Necklaces/Women/Product%206/NWP6-1.jpg",
+        "../images/Products/Necklaces/Women/Product%206/NWP6-3.jpg"
+      ],
+      "bestSeller": false,
+      "gender": "Women"
+    },
+    {
+      "id": "Eternia-9K7R5C4A",
+      "name": "Ethereal Bloom",
+      "category": "Necklaces",
+      "description": "A soft, delicate design inspired by nature's most elegant blooms, this necklace exudes grace and beauty.",
+      "price": 3799,
+      "inStock": true,
+      "promotion": "This floral-inspired necklace is perfect for adding a touch of nature's elegance to any outfit, embodying sophistication and charm.",
+      "images": [
+        "../images/Products/Necklaces/Women/Product%207/NWP7-1.jpg",
+        "../images/Products/Necklaces/Women/Product%207/NWP7-2.jpg",
+        "../images/Products/Necklaces/Women/Product%207/NWP7-3.jpg"
+      ],
+      "bestSeller": false,
+      "gender": "Women"
+    },
+    {
+      "id": "Eternia-9D5S6T1W",
+      "name": "Mystic Lagoon",
+      "category": "Necklaces",
+      "description": "Inspired by the depths of the ocean, this necklace evokes the allure of the sea with its deep blue tones and shimmering finish.",
+      "price": 5299,
+      "inStock": false,
+      "promotion": "A luxurious statement piece, crafted to add an element of mystery and beauty to your collection.",
+      "images": [
+        "../images/Products/Necklaces/Women/Product%208/NWP8-1.webp",
+        "../images/Products/Necklaces/Women/Product%208/NWP8-2.webp",
+        "../images/Products/Necklaces/Women/Product%208/NWP8-3.webp",
+        "../images/Products/Necklaces/Women/Product%208/NWP8-4.webp"
+      ],
+      "bestSeller": true,
+      "gender": "Women"
+    },
+    {
+      "id": "Eternia-9L1R8P5G",
+      "name": "Opulent Horizon",
+      "category": "Necklaces",
+      "description": "A design that captures the beauty of a distant horizon, symbolizing adventure and boundless elegance.",
+      "price": 6399,
+      "inStock": true,
+      "promotion": "This luxurious necklace is perfect for those who desire a piece that reflects both beauty and strength.",
+      "images": [
+        "../images/Products/Necklaces/Women/Product%209/NWP9-1.webp",
+        "../images/Products/Necklaces/Women/Product%209/NWP9-2.webp",
+        "../images/Products/Necklaces/Women/Product%209/NWP9-3.webp",
+        "../images/Products/Necklaces/Women/Product%209/NWP9-4.webp"
+      ],
+      "bestSeller": false,
+      "gender": "Women"
+    },
+    {
+      "id": "Eternia-9M3B9N4J",
+      "name": "Aurora Embrace",
+      "category": "Necklaces",
+      "description": "A captivating necklace designed to embrace the beauty of the northern lights, radiating elegance and color.",
+      "price": 6999,
+      "inStock": true,
+      "promotion": "With its captivating design and radiant colors, this necklace is perfect for the modern woman who seeks elegance and mystery.",
+      "images": [
+        "../images/Products/Necklaces/Women/Product%2010/NWP10-1.webp",
+        "../images/Products/Necklaces/Women/Product%2010/NWP10-2.webp",
+        "../images/Products/Necklaces/Women/Product%2010/NWP10-3.webp",
+        "../images/Products/Necklaces/Women/Product%2010/NWP10-4.webp",
+        "../images/Products/Necklaces/Women/Product%2010/NWP10-5.webp",
+        "../images/Products/Necklaces/Women/Product%2010/NWP10-6.webp"
+      ],
+      "bestSeller": true,
+      "gender": "Women"
+    },
+    {
+      "id": "Eternia-9K1L7N2R",
+      "name": "Obsidian Crown",
+      "category": "Rings",
+      "description": "A bold and timeless ring made from premium obsidian, featuring an intricate crown design that represents power and sophistication.",
+      "price": 3499,
+      "inStock": true,
+      "promotion": "Crafted from the finest materials, this ring brings a touch of royal elegance to any occasion.",
+      "images": [
+        "../images/Products/Rings/Men/Product%201/RMP1-3.webp",
+        "../images/Products/Rings/Men/Product%201/RMP1-1.webp",
+        "../images/Products/Rings/Men/Product%201/RMP1-2.webp"
+      ],
+      "bestSeller": true,
+      "gender": "Men"
+    },
+    {
+      "id": "Eternia-9B2J5A3M",
+      "name": "Vanguard Legacy",
+      "category": "Rings",
+      "description": "A striking ring inspired by the vanguard of timeless elegance, forged from polished silver and highlighted with sleek geometric accents.",
+      "price": 4199,
+      "inStock": false,
+      "promotion": "A design that speaks of modern luxury and refined taste, this ring is the ultimate statement of class.",
+      "images": [
+        "../images/Products/Rings/Men/Product%202/RMP2-1.webp",
+        "../images/Products/Rings/Men/Product%202/RMP2-2.webp",
+        "../images/Products/Rings/Men/Product%202/RMP2-3.webp",
+        "../images/Products/Rings/Men/Product%202/RMP2-4.webp"
+      ],
+      "bestSeller": false,
+      "gender": "Men"
+    },
+    {
+      "id": "Eternia-9P4L9H1Q",
+      "name": "Titanium Eclipse",
+      "category": "Rings",
+      "description": "Crafted from premium titanium, this ring features a unique eclipse design, symbolizing the balance of light and darkness.",
+      "price": 4699,
+      "inStock": true,
+      "promotion": "Perfectly balanced between sleek modernity and timeless design, this ring offers both strength and elegance.",
+      "images": [
+        "../images/Products/Rings/Men/Product%203/RMP3-1.webp",
+        "../images/Products/Rings/Men/Product%203/RMP3-2.webp",
+        "../images/Products/Rings/Men/Product%203/RMP3-3.webp",
+        "../images/Products/Rings/Men/Product%203/RMP3-4.webp"
+      ],
+      "bestSeller": false,
+      "gender": "Men"
+    },
+    {
+      "id": "Eternia-9W6K8Q3T",
+      "name": "Sovereign Ascendant",
+      "category": "Rings",
+      "description": "A ring of authority and luxury, the Sovereign Ascendant blends elegant design with impeccable craftsmanship, designed for the modern king.",
+      "price": 5299,
+      "inStock": true,
+      "promotion": "Crafted with the finest materials, this ring captures the essence of sovereignty and high-class luxury.",
+      "images": [
+        "../images/Products/Rings/Men/Product%204/RMP4-1.webp",
+        "../images/Products/Rings/Men/Product%204/RMP4-2.webp",
+        "../images/Products/Rings/Men/Product%204/RMP4-3.webp"
+      ],
+      "bestSeller": true,
+      "gender": "Men"
+    },
+    {
+      "id": "Eternia-9R7V1C6U",
+      "name": "Celestial Vanguard",
+      "category": "Rings",
+      "description": "A celestial-themed ring that captures the beauty of the stars, with a captivating design that evokes power and grace.",
+      "price": 3999,
+      "inStock": true,
+      "promotion": "Designed with precision and style, this ring adds a touch of starry elegance to any ensemble.",
+      "images": [
+        "../images/Products/Rings/Men/Product%205/RMP5-1.webp",
+        "../images/Products/Rings/Men/Product%205/RMP5-2.webp",
+        "../images/Products/Rings/Men/Product%205/RMP5-3.webp"
+      ],
+      "bestSeller": false,
+      "gender": "Men"
+    },
+    {
+      "id": "Eternia-9G8F4D2M",
+      "name": "Emberflare Ring",
+      "category": "Rings",
+      "description": "This dramatic ring features a stunning interplay of fire and light, crafted to shine with a fiery brilliance.",
+      "price": 5599,
+      "inStock": false,
+      "promotion": "With a bold, fiery design, the Emberflare ring represents passion and confidence, crafted for those who dare to stand out.",
+      "images": [
+        "../images/Products/Rings/Men/Product%206/RMP6-1.webp",
+        "../images/Products/Rings/Men/Product%206/RMP6-2.webp",
+        "../images/Products/Rings/Men/Product%206/RMP6-3.webp",
+        "../images/Products/Rings/Men/Product%206/RMP6-4.webp",
+        "../images/Products/Rings/Men/Product%206/RMP6-5.webp"
+      ],
+      "bestSeller": false,
+      "gender": "Men"
+    },
+    {
+      "id": "Eternia-9D2L6P1V",
+      "name": "Regal Vortex",
+      "category": "Rings",
+      "description": "A luxurious ring symbolizing the eternal vortex of time, crafted with intricate details and premium materials.",
+      "price": 4799,
+      "inStock": true,
+      "promotion": "A masterpiece of design and craftsmanship, this ring draws the eye and captures the essence of luxury.",
+      "images": [
+        "../images/Products/Rings/Men/Product%207/RMP7-1.jpg",
+        "../images/Products/Rings/Men/Product%207/RMP7-2.jpg",
+        "../images/Products/Rings/Men/Product%207/RMP7-3.jpg"
+      ],
+      "bestSeller": true,
+      "gender": "Men"
+    },
+    {
+      "id": "Eternia-9N5C3W7B",
+      "name": "Imperial Odyssey",
+      "category": "Rings",
+      "description": "A sophisticated ring that evokes the spirit of ancient empires, combining timeless design with modern luxury.",
+      "price": 4899,
+      "inStock": true,
+      "promotion": "An unforgettable ring that combines imperial power with elegance, designed for the discerning gentleman.",
+      "images": [
+        "../images/Products/Rings/Men/Product%208/RMP8-1.webp",
+        "../images/Products/Rings/Men/Product%208/RMP8-2.webp",
+        "../images/Products/Rings/Men/Product%208/RMP8-3.webp",
+        "../images/Products/Rings/Men/Product%208/RMP8-4.webp",
+        "../images/Products/Rings/Men/Product%208/RMP8-5.webp"
+      ],
+      "bestSeller": true,
+      "gender": "Men"
+    },
+    {
+      "id": "Eternia-9Z1T4G5X",
+      "name": "Vortex of Eternity",
+      "category": "Rings",
+      "description": "A striking, dynamic design with a swirling vortex effect, made from rare metals that showcase timeless elegance.",
+      "price": 4999,
+      "inStock": true,
+      "promotion": "The Vortex of Eternity ring is for those who seek both beauty and strength in their accessories, crafted to last.",
+      "images": [
+        "../images/Products/Rings/Men/Product%209/RMP9-1.webp",
+        "../images/Products/Rings/Men/Product%209/RMP9-2.webp",
+        "../images/Products/Rings/Men/Product%209/RMP9-3.webp",
+        "../images/Products/Rings/Men/Product%209/RMP9-4.webp",
+        "../images/Products/Rings/Men/Product%209/RMP9-5.webp"
+      ],
+      "bestSeller": false,
+      "gender": "Men"
+    },
+    {
+      "id": "Eternia-9S7M1H3A",
+      "name": "Crown of Aether",
+      "category": "Rings",
+      "description": "A stunning ring featuring a crown design inspired by the mythical aether, representing both royalty and mysticism.",
+      "price": 5399,
+      "inStock": true,
+      "promotion": "The Crown of Aether is a regal, elegant piece crafted to perfection, making a statement of grace and mystique.",
+      "images": [
+        "../images/Products/Rings/Men/Product%2010/RMP10-1.webp",
+        "../images/Products/Rings/Men/Product%2010/RMP10-2.webp",
+        "../images/Products/Rings/Men/Product%2010/RMP10-3.webp",
+        "../images/Products/Rings/Men/Product%2010/RMP10-4.webp",
+        "../images/Products/Rings/Men/Product%2010/RMP10-5.webp"
+      ],
+      "bestSeller": true,
+      "gender": "Men"
+    },
+    {
+      "id": "Eternia-9G5H3J2D",
+      "name": "Ethereal Halo",
+      "category": "Rings",
+      "description": "A luxurious ring that combines the allure of elegance with a touch of celestial magic, making it a timeless piece.",
+      "price": 3499,
+      "inStock": true,
+      "promotion": "Crafted with precision, the Ethereal Halo ring is designed to bring sophistication and charm to any occasion.",
+      "images": [
+        "../images/Products/Rings/Women/Product%201/RWP1-1.jpg",
+        "../images/Products/Rings/Women/Product%201/RWP1-2.jpg",
+        "../images/Products/Rings/Women/Product%201/RWP1-3.jpg",
+        "../images/Products/Rings/Women/Product%201/RWP1-4.jpg"
+      ],
+      "bestSeller": true,
+      "gender": "Women"
+    },
+    {
+      "id": "Eternia-9B8T2N1Z",
+      "name": "Serenity Cascade",
+      "category": "Rings",
+      "description": "A masterpiece of delicate design, the Serenity Cascade ring represents calm and tranquility with its subtle charm.",
+      "price": 3899,
+      "inStock": true,
+      "promotion": "This ring embodies purity and elegance, crafted to perfection to offer timeless beauty and grace.",
+      "images": [
+        "../images/Products/Rings/Women/Product%202/RWP2-1.webp",
+        "../images/Products/Rings/Women/Product%202/RWP2-2.webp",
+        "../images/Products/Rings/Women/Product%202/RWP2-3.webp"
+      ],
+      "bestSeller": false,
+      "gender": "Women"
+    },
+    {
+      "id": "Eternia-9C4V7M2Q",
+      "name": "Opal Radiance",
+      "category": "Rings",
+      "description": "With its captivating opal centerpiece, this ring radiates a soft glow that symbolizes elegance and refined taste.",
+      "price": 4299,
+      "inStock": true,
+      "promotion": "The Opal Radiance ring captures light and elegance, perfect for those who appreciate understated luxury.",
+      "images": [
+        "../images/Products/Rings/Women/Product%203/RWP3-1.webp",
+        "../images/Products/Rings/Women/Product%203/RWP3-2.webp",
+        "../images/Products/Rings/Women/Product%203/RWP3-3.webp"
+      ],
+      "bestSeller": true,
+      "gender": "Women"
+    },
+    {
+      "id": "Eternia-9P3X5Q1D",
+      "name": "Luminous Embrace",
+      "category": "Rings",
+      "description": "A ring that encircles your finger with shimmering beauty, symbolizing both strength and grace.",
+      "price": 4999,
+      "inStock": true,
+      "promotion": "The Luminous Embrace ring is crafted to reflect light and elegance, designed for those who value subtle opulence.",
+      "images": [
+        "../images/Products/Rings/Women/Product%204/RWP4-1.jpg",
+        "../images/Products/Rings/Women/Product%204/RWP4-2.jpg",
+        "../images/Products/Rings/Women/Product%204/RWP4-3.jpg"
+      ],
+      "bestSeller": true,
+      "gender": "Women"
+    },
+    {
+      "id": "Eternia-9A8T4S3J",
+      "name": "Timeless Reflections",
+      "category": "Rings",
+      "description": "A classic piece, the Timeless Reflections ring blends vintage design with contemporary sophistication.",
+      "price": 3999,
+      "inStock": true,
+      "promotion": "A symbol of enduring elegance, this ring is perfect for those who cherish timeless beauty.",
+      "images": [
+        "../images/Products/Rings/Women/Product%205/RWP5-1.jpg",
+        "../images/Products/Rings/Women/Product%205/RWP5-2.jpg",
+        "../images/Products/Rings/Women/Product%205/RWP5-3.jpg"
+      ],
+      "bestSeller": false,
+      "gender": "Women"
+    },
+    {
+      "id": "Eternia-9F6R3V5B",
+      "name": "Crystal Dynasty",
+      "category": "Rings",
+      "description": "With its luxurious crystal centerpiece, the Crystal Dynasty ring exudes opulence and grandeur.",
+      "price": 5499,
+      "inStock": false,
+      "promotion": "Crafted with exceptional care, this ring offers both boldness and elegance, perfect for a statement look.",
+      "images": [
+        "../images/Products/Rings/Women/Product%206/RWP6-1.webp",
+        "../images/Products/Rings/Women/Product%206/RWP6-2.webp",
+        "../images/Products/Rings/Women/Product%206/RWP6-3.webp",
+        "../images/Products/Rings/Women/Product%206/RWP6-4.webp"
+      ],
+      "bestSeller": false,
+      "gender": "Women"
+    },
+    {
+      "id": "Eternia-9D3F2W8P",
+      "name": "Elysian Bloom",
+      "category": "Rings",
+      "description": "Inspired by the elegance of a blooming flower, the Elysian Bloom ring adds an aura of femininity and grace.",
+      "price": 3599,
+      "inStock": true,
+      "promotion": "Designed to evoke a sense of beauty, the Elysian Bloom ring enhances your elegance with a floral touch.",
+      "images": [
+        "../images/Products/Rings/Women/Product%207/RWP7-1.webp",
+        "../images/Products/Rings/Women/Product%207/RWP7-2.webp",
+        "../images/Products/Rings/Women/Product%207/RWP7-3.webp",
+        "../images/Products/Rings/Women/Product%207/RWP7-4.webp"
+      ],
+      "bestSeller": true,
+      "gender": "Women"
+    },
+    {
+      "id": "Eternia-9M2Q4T1R",
+      "name": "Royal Crescent",
+      "category": "Rings",
+      "description": "A ring that epitomizes regal elegance, the Royal Crescent design offers a luxurious and majestic feel.",
+      "price": 4699,
+      "inStock": true,
+      "promotion": "With its curved, flowing design, the Royal Crescent ring is a symbol of luxury and grandeur.",
+      "images": [
+        "../images/Products/Rings/Women/Product%208/RWP8-1.jpg",
+        "../images/Products/Rings/Women/Product%208/RWP8-2.jpg"
+      ],
+      "bestSeller": false,
+      "gender": "Women"
+    },
+    {
+      "id": "Eternia-9K5D7P3W",
+      "name": "Infinity Opal",
+      "category": "Rings",
+      "description": "A mesmerizing infinity design featuring a brilliant opal centerpiece, the Infinity Opal ring symbolizes endless love and grace.",
+      "price": 3999,
+      "inStock": true,
+      "promotion": "This ring captures the essence of eternity, crafted with an opal stone that embodies timeless beauty.",
+      "images": [
+        "../images/Products/Rings/Women/Product%209/RWP9-1.webp",
+        "../images/Products/Rings/Women/Product%209/RWP9-2.webp",
+        "../images/Products/Rings/Women/Product%209/RWP9-3.webp",
+        "../images/Products/Rings/Women/Product%209/RWP9-4.webp"
+      ],
+      "bestSeller": true,
+      "gender": "Women"
+    },
+    {
+      "id": "Eternia-9L4V6B1S",
+      "name": "Golden Mirage",
+      "category": "Rings",
+      "description": "A delicate ring that captures the glow of golden hues, representing both mystery and elegance.",
+      "price": 5899,
+      "inStock": true,
+      "promotion": "The Golden Mirage ring combines classic design with a contemporary twist, making it perfect for any high-end collection.",
+      "images": [
+        "../images/Products/Rings/Women/Product%2010/RWP10-1.webp",
+        "../images/Products/Rings/Women/Product%2010/RWP10-2.webp",
+        "../images/Products/Rings/Women/Product%2010/RWP10-3.webp"
+      ],
+      "bestSeller": false,
+      "gender": "Women"
+    },
+    {
+      "id": "Eternia-9A3X6F2B",
+      "name": "Vanguard Titanium",
+      "category": "Bracelets",
+      "description": "A cutting-edge bracelet forged from titanium, offering a modern design with unmatched durability.",
+      "price": 3499,
+      "inStock": true,
+      "promotion": "This bracelet combines innovation and luxury, perfect for adding a sophisticated yet bold touch to any style.",
+      "images": [
+        "../images/Products/Bracelets/Men/Product%201/BMP1-3.webp",
+        "../images/Products/Bracelets/Men/Product%201/BMP1-2.webp",
+        "../images/Products/Bracelets/Men/Product%201/BMP1-1.webp",
+        "../images/Products/Bracelets/Men/Product%201/BMP1-4.webp"
+      ],
+      "bestSeller": true,
+      "gender": "Men"
+    },
+    {
+      "id": "Eternia-9F7K2Z5M",
+      "name": "Luxe Infinity",
+      "category": "Bracelets",
+      "description": "Crafted from premium materials, this bracelet embodies the essence of endless luxury and refinement.",
+      "price": 4299,
+      "inStock": true,
+      "promotion": "With its timeless design, the Luxe Infinity bracelet elevates your look with a touch of sophistication.",
+      "images": [
+        "../images/Products/Bracelets/Men/Product%202/BMP2-4.webp",
+        "../images/Products/Bracelets/Men/Product%202/BMP2-3.webp",
+        "../images/Products/Bracelets/Men/Product%202/BMP2-1.webp",
+        "../images/Products/Bracelets/Men/Product%202/BMP2-2.webp",
+        "../images/Products/Bracelets/Men/Product%202/BMP2-5.webp"
+      ],
+      "bestSeller": false,
+      "gender": "Men"
+    },
+    {
+      "id": "Eternia-9P8W4V1C",
+      "name": "Emperor's Crest",
+      "category": "Bracelets",
+      "description": "A bracelet designed to embody the power and elegance of royalty, featuring intricate detailing and luxurious accents.",
+      "price": 4999,
+      "inStock": false,
+      "promotion": "A true statement piece, this bracelet exudes power and elegance, perfect for those who command attention.",
+      "images": [
+        "../images/Products/Bracelets/Men/Product%203/BMP3-1.webp",
+        "../images/Products/Bracelets/Men/Product%203/BMP3-2.webp",
+        "../images/Products/Bracelets/Men/Product%203/BMP3-3.webp",
+        "../images/Products/Bracelets/Men/Product%203/BMP3-4.webp"
+      ],
+      "bestSeller": true,
+      "gender": "Men"
+    },
+    {
+      "id": "Eternia-9V5R3E7P",
+      "name": "Majestic Armor",
+      "category": "Bracelets",
+      "description": "Forged for strength and style, this bracelet features sleek design with the sturdiness of armor, made for the bold.",
+      "price": 3599,
+      "inStock": true,
+      "promotion": "Crafted with high-quality materials, the Majestic Armor bracelet is a blend of toughness and sophistication.",
+      "images": [
+        "../images/Products/Bracelets/Men/Product%204/BMP4-1.webp",
+        "../images/Products/Bracelets/Men/Product%204/BMP4-2.webp",
+        "../images/Products/Bracelets/Men/Product%204/BMP4-3.webp"
+      ],
+      "bestSeller": true,
+      "gender": "Men"
+    },
+    {
+      "id": "Eternia-9K2B8T9F",
+      "name": "Zenith Steel",
+      "category": "Bracelets",
+      "description": "A contemporary bracelet made from stainless steel, embodying the pinnacle of modern luxury and precision.",
+      "price": 3799,
+      "inStock": true,
+      "promotion": "The Zenith Steel bracelet represents the highest level of craftsmanship and design, an essential for the discerning gentleman.",
+      "images": [
+        "../images/Products/Bracelets/Men/Product%205/BMP5-3.webp",
+        "../images/Products/Bracelets/Men/Product%205/BMP5-2.webp",
+        "../images/Products/Bracelets/Men/Product%205/BMP5-1.webp",
+        "../images/Products/Bracelets/Men/Product%205/BMP5-4.webp"
+      ],
+      "bestSeller": false,
+      "gender": "Men"
+    },
+    {
+      "id": "Eternia-9D5H3L7J",
+      "name": "Gilded Legacy",
+      "category": "Bracelets",
+      "description": "A bracelet that combines vintage charm with modern luxury, showcasing craftsmanship and a rich design.",
+      "price": 4599,
+      "inStock": true,
+      "promotion": "The Gilded Legacy bracelet is a luxurious tribute to craftsmanship, made to elevate any gentleman's style.",
+      "images": [
+        "../images/Products/Bracelets/Men/Product%206/BMP6-1.webp",
+        "../images/Products/Bracelets/Men/Product%206/BMP6-2.webp",
+        "../images/Products/Bracelets/Men/Product%206/BMP6-3.webp",
+        "../images/Products/Bracelets/Men/Product%206/BMP6-4.webp"
+      ],
+      "bestSeller": false,
+      "gender": "Men"
+    },
+    {
+      "id": "Eternia-9C7P6X2M",
+      "name": "Titanium Forge",
+      "category": "Bracelets",
+      "description": "A bracelet designed with titanium, offering both strength and lightweight comfort for those who demand both style and resilience.",
+      "price": 3999,
+      "inStock": true,
+      "promotion": "The Titanium Forge bracelet is made for those who appreciate bold, sleek designs and the durability of cutting-edge materials.",
+      "images": [
+        "../images/Products/Bracelets/Men/Product%207/BMP7-1.webp",
+        "../images/Products/Bracelets/Men/Product%207/BMP7-2.webp",
+        "../images/Products/Bracelets/Men/Product%207/BMP7-3.webp"
+      ],
+      "bestSeller": true,
+      "gender": "Men"
+    },
+    {
+      "id": "Eternia-9S3W7F9B",
+      "name": "Eternal Legacy",
+      "category": "Bracelets",
+      "description": "A timeless piece that combines elegance with strength, perfect for those who appreciate heritage and refinement.",
+      "price": 4999,
+      "inStock": true,
+      "promotion": "Crafted for those who honor the past while embracing the future, the Eternal Legacy bracelet is a tribute to classic design.",
+      "images": [
+        "../images/Products/Bracelets/Men/Product%208/BMP8-1.jpg",
+        "../images/Products/Bracelets/Men/Product%208/BMP8-2.jpg",
+        "../images/Products/Bracelets/Men/Product%208/BMP8-3.jpg",
+        "../images/Products/Bracelets/Men/Product%208/BMP8-4.jpg"
+      ],
+      "bestSeller": true,
+      "gender": "Men"
+    },
+    {
+      "id": "Eternia-9T4R2J6N",
+      "name": "Noble Essence",
+      "category": "Bracelets",
+      "description": "An exceptional bracelet symbolizing refinement and nobility, designed for the modern man with a taste for classic luxury.",
+      "price": 3899,
+      "inStock": true,
+      "promotion": "With a perfect blend of tradition and modernity, the Noble Essence bracelet is an elegant piece that complements any look.",
+      "images": [
+        "../images/Products/Bracelets/Men/Product%209/BMP9-4.webp",
+        "../images/Products/Bracelets/Men/Product%209/BMP9-2.webp",
+        "../images/Products/Bracelets/Men/Product%209/BMP9-3.webp",
+        "../images/Products/Bracelets/Men/Product%209/BMP9-1.webp",
+        "../images/Products/Bracelets/Men/Product%209/BMP9-5.webp"
+      ],
+      "bestSeller": false,
+      "gender": "Men"
+    },
+    {
+      "id": "Eternia-9M1B4Y8G",
+      "name": "Luxor Steel",
+      "category": "Bracelets",
+      "description": "A bracelet forged from the finest steel, perfect for adding a luxurious touch of sophistication to any attire.",
+      "price": 4599,
+      "inStock": false,
+      "promotion": "The Luxor Steel bracelet combines strength and elegance, designed for the modern man who demands the best.",
+      "images": [
+        "../images/Products/Bracelets/Men/Product%2010/BMP10-4.webp",
+        "../images/Products/Bracelets/Men/Product%2010/BMP10-2.webp",
+        "../images/Products/Bracelets/Men/Product%2010/BMP10-3.webp",
+        "../images/Products/Bracelets/Men/Product%2010/BMP10-1.webp",
+        "../images/Products/Bracelets/Men/Product%2010/BMP10-5.webp"
+      ],
+      "bestSeller": false,
+      "gender": "Men"
+    },
+    {
+      "id": "Eternia-9F3B7K1L",
+      "name": "Eternal Grace",
+      "category": "Bracelets",
+      "description": "An elegant bracelet that embodies grace and sophistication, designed for women who appreciate timeless beauty.",
+      "price": 3999,
+      "inStock": true,
+      "promotion": "Crafted from premium materials, this piece showcases a refined design, perfect for adding elegance to any occasion.",
+      "images": [
+        "../images/Products/Bracelets/Women/Product%201/BWP1-1.jpg",
+        "../images/Products/Bracelets/Women/Product%201/BWP1-2.jpg",
+        "../images/Products/Bracelets/Women/Product%201/BWP1-3.jpg"
+      ],
+      "bestSeller": true,
+      "gender": "Women"
+    },
+    {
+      "id": "Eternia-9K6M4Q8N",
+      "name": "Luxe Cascade",
+      "category": "Bracelets",
+      "description": "A cascading design that flows with natural beauty, this bracelet is for women who desire a piece that speaks of luxury.",
+      "price": 4999,
+      "inStock": true,
+      "promotion": "Crafted from the finest metals, this bracelet brings together luxury and durability, offering a statement of sophistication.",
+      "images": [
+        "../images/Products/Bracelets/Women/Product%202/BWP2-1.jpg",
+        "../images/Products/Bracelets/Women/Product%202/BWP2-2.jpg",
+        "../images/Products/Bracelets/Women/Product%202/BWP2-3.jpg",
+        "../images/Products/Bracelets/Women/Product%202/BWP2-4.jpg"
+      ],
+      "bestSeller": false,
+      "gender": "Women"
+    },
+    {
+      "id": "Eternia-9V7L3J2A",
+      "name": "Celestial Aura",
+      "category": "Bracelets",
+      "description": "Inspired by the beauty of the stars, this bracelet illuminates your wrist with its luxurious design.",
+      "price": 5599,
+      "inStock": true,
+      "promotion": "Designed to stand out, the Celestial Aura bracelet combines elegance and celestial allure, ideal for evening wear.",
+      "images": [
+        "../images/Products/Bracelets/Women/Product%203/BWP3-1.jpg",
+        "../images/Products/Bracelets/Women/Product%203/BWP3-2.jpg",
+        "../images/Products/Bracelets/Women/Product%203/BWP3-3.jpg",
+        "../images/Products/Bracelets/Women/Product%203/BWP3-4.jpg",
+        "../images/Products/Bracelets/Women/Product%203/BWP3-5.jpg"
+      ],
+      "bestSeller": true,
+      "gender": "Women"
+    },
+    {
+      "id": "Eternia-9D2F7B3P",
+      "name": "Regal Embrace",
+      "category": "Bracelets",
+      "description": "A bracelet that exudes royalty and elegance, designed for women who want to make a bold statement.",
+      "price": 6299,
+      "inStock": true,
+      "promotion": "Crafted with attention to detail, this bracelet combines intricate design with luxurious materials to create a piece that lasts.",
+      "images": [
+        "../images/Products/Bracelets/Women/Product%204/BWP4-1.jpg",
+        "../images/Products/Bracelets/Women/Product%204/BWP4-2.jpg",
+        "../images/Products/Bracelets/Women/Product%204/BWP4-3.jpg"
+      ],
+      "bestSeller": false,
+      "gender": "Women"
+    },
+    {
+      "id": "Eternia-9X5B2Y9K",
+      "name": "Serenity Wave",
+      "category": "Bracelets",
+      "description": "A graceful wave design that evokes peace and serenity, perfect for those who value timeless beauty and simplicity.",
+      "price": 3199,
+      "inStock": true,
+      "promotion": "This bracelet is a symbol of calm and elegance, blending perfectly with any sophisticated outfit.",
+      "images": [
+        "../images/Products/Bracelets/Women/Product%205/BWP5-1.jpg",
+        "../images/Products/Bracelets/Women/Product%205/BWP5-2.jpg",
+        "../images/Products/Bracelets/Women/Product%205/BWP5-3.jpg",
+        "../images/Products/Bracelets/Women/Product%205/BWP5-4.jpg"
+      ],
+      "bestSeller": true,
+      "gender": "Women"
+    },
+    {
+      "id": "Eternia-9R1C4T2M",
+      "name": "Infinity Radiance",
+      "category": "Bracelets",
+      "description": "A radiant design symbolizing the infinite beauty of luxury, this bracelet adds a glamorous touch to any ensemble.",
+      "price": 6799,
+      "inStock": false,
+      "promotion": "The Infinity Radiance bracelet shines with its delicate craftsmanship, making it the perfect addition to any luxury collection.",
+      "images": [
+        "../images/Products/Bracelets/Women/Product%206/BWP6-1.jpg",
+        "../images/Products/Bracelets/Women/Product%206/BWP6-2.jpg",
+        "../images/Products/Bracelets/Women/Product%206/BWP6-3.jpg",
+        "../images/Products/Bracelets/Women/Product%206/BWP6-4.jpg"
+      ],
+      "bestSeller": false,
+      "gender": "Women"
+    },
+    {
+      "id": "Eternia-9F4T6G3H",
+      "name": "Opal Mirage",
+      "category": "Bracelets",
+      "description": "A mystical design that captures the elegance and allure of opal, perfect for a woman who seeks something unique.",
+      "price": 4999,
+      "inStock": true,
+      "promotion": "This bracelet reflects the allure of opal, with a timeless design that can complement both day and evening wear.",
+      "images": [
+        "../images/Products/Bracelets/Women/Product%207/BWP7-1.jpg",
+        "../images/Products/Bracelets/Women/Product%207/BWP7-2.jpg",
+        "../images/Products/Bracelets/Women/Product%207/BWP7-3.jpg"
+      ],
+      "bestSeller": true,
+      "gender": "Women"
+    },
+    {
+      "id": "Eternia-9Z3H5N8L",
+      "name": "Gilded Serenity",
+      "category": "Bracelets",
+      "description": "A masterpiece that blends elegance with serenity, designed for those who appreciate fine jewelry with a soft, luxurious touch.",
+      "price": 4599,
+      "inStock": true,
+      "promotion": "Gilded Serenity is the perfect bracelet for women seeking a touch of calm and elegance, crafted from the finest materials.",
+      "images": [
+        "../images/Products/Bracelets/Women/Product%208/BWP8-1.jpg",
+        "../images/Products/Bracelets/Women/Product%208/BWP8-2.jpg",
+        "../images/Products/Bracelets/Women/Product%208/BWP8-3.jpg"
+      ],
+      "bestSeller": false,
+      "gender": "Women"
+    },
+    {
+      "id": "Eternia-9J8F1B6P",
+      "name": "Twilight Sparkle",
+      "category": "Bracelets",
+      "description": "This bracelet captures the twinkling essence of twilight, offering a dazzling addition to any luxury collection.",
+      "price": 5399,
+      "inStock": true,
+      "promotion": "Crafted to sparkle with every movement, the Twilight Sparkle bracelet is a testament to modern luxury and timeless beauty.",
+      "images": [
+        "../images/Products/Bracelets/Women/Product%209/BWP9-1.jpg",
+        "../images/Products/Bracelets/Women/Product%209/BWP9-2.jpg",
+        "../images/Products/Bracelets/Women/Product%209/BWP9-3.jpg",
+        "../images/Products/Bracelets/Women/Product%209/BWP9-4.jpg"
+      ],
+      "bestSeller": true,
+      "gender": "Women"
+    },
+    {
+      "id": "Eternia-9D5X3A7P",
+      "name": "Moonlit Blossom",
+      "category": "Bracelets",
+      "description": "A design inspired by the gentle light of the moon and the beauty of blooming flowers, this bracelet is a symbol of grace and elegance.",
+      "price": 4199,
+      "inStock": false,
+      "promotion": "Moonlit Blossom brings a sense of tranquility and elegance, perfect for evening wear or any occasion that calls for a touch of luxury.",
+      "images": [
+        "../images/Products/Bracelets/Women/Product%2010/BWP10-1.jpg",
+        "../images/Products/Bracelets/Women/Product%2010/BWP10-2.jpg",
+        "../images/Products/Bracelets/Women/Product%2010/BWP10-3.jpg"
+      ],
+      "bestSeller": false,
+      "gender": "Women"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="200" cy="100" r="50" fill="none" stroke="#B8860B" stroke-width="2"/>
+  <circle cx="200" cy="100" r="45" fill="none" stroke="#B8860B" stroke-width="1"/>
+  <path d="M200,65 L215,100 L200,135 L185,100 Z" fill="#B8860B"/>
+  <text x="200" y="180" text-anchor="middle" font-family="Georgia" font-size="24" fill="#FFFFFF" letter-spacing="4">ETERNIA</text>
+</svg>

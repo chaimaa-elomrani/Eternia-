@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Eternia for luxury accessories for men and women " />
+    <meta name="keywords" content="Eternia, accessories, men,women,independent" />
+    <meta name="author" content="CIMA team" />
+    <title>ETERNIA || Your Forever Begins Here</title>
+
+    <link rel="stylesheet" href="../css/tailwind/output.css" />
+    <link rel="icon" href="../images/Logo/Favicon/fav-32-eternia.png" type="image/x-icon" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Montaga&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class=" bg-black top-0">
+        <!-- Navbar -->
+        <nav class="relative">
+          <div class="px-4 mx-auto max-w-7xl">
+            <div class="flex items-center justify-between h-16">
+              <!-- Logo -->
+              <p onclick="window.location.href='../../index.html'" class="cursor-pointer text-2xl font-montaga text-outline">
+                E<span class="cursor-pointer hover:text-goldenrod" onclick="event.stopPropagation(); window.location.href='../html/Admin_page.html';">T</span>ERNIA
+              </p>
+      
+              <!-- Menu Desktop -->
+              <div class="hidden md:flex items-center justify-between flex-1 pl-12">
+                <!-- Menu principal centré -->
+                <div class="flex-1 flex justify-center space-x-8 font-inria">
+                  <a href="#" class=" hover:text-goldenrod text-outline navbar-link text-white">Bracelets</a>
+                  <a href="#" class=" hover:text-goldenrod text-outline navbar-link text-white">Necklaces</a>
+                  <a href="#" class=" hover:text-goldenrod text-outline navbar-link text-white">Rings</a>
+                  <a href="#" class=" hover:text-goldenrod text-outline navbar-link text-white">Watches</a>
+                </div>
+      
+                <!-- Menu droite (Us + Panier) -->
+                <div class="flex items-center space-x-8 font-inria">
+                  <a href="../html/About_Contact.html" class="hover:text-gray-200 lg:hover:text-goldenrod/80 text-outline text-white">Us</a>
+                  <button class="hover:text-gray-200 lg:hover:text-goldenrod/80 cart-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                      stroke="currentColor" class="size-6 text-white">
+                      <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+      
+              <!-- Menu Mobile Button Cart -->
+              <div class="flex items-center space-x-4 md:hidden">
+                <button class="hover:text-gray-200 lg:hover:text-goldenrod/80 cart-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                      stroke="currentColor" class="size-6 text-white">
+                      <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                    </svg>
+                  </button>
+                <button class="" id="menuButton">
+                  <svg class="w-6 h-6 text-white" id="menuIcon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+      
+            <!-- Menu Mobile -->
+            <div class="absolute left-0 hidden w-full md:hidden" id="mobileMenu">
+              <div class="flex flex-col items-center py-4 space-y-4 font-inria bg-white">
+                <a href="../html/All_Products.html" class="hover:text-gray-200">Bracelets</a>
+                <a href="../html/All_Products.html" class="hover:text-gray-200">Necklaces</a>
+                <a href="../html/All_Products.html" class="hover:text-gray-200">Rings</a>
+                <a href="../html/All_Products.html" class="hover:text-gray-200">Watches</a>
+                <a href="../html/About_Contact.html" class="hover:text-gray-200">Us</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+      
+      <!-- Dynamic Product Sections Container -->
+      <section class="elementOfNavbar w-full">
+        <!-- Bracelet Products -->
+        <div class="product-section w-full" id="bracelets-container">
+          <div class="product-list visible grid grid-cols-4 gap-6 px-4 py-8 relative bg-white"
+            data-category="bracelets">
+          </div>
+        </div>
+      
+        <!-- Necklace Products -->
+        <div class="product-section w-full" id="necklaces-container">
+          <div class="product-list visible grid grid-cols-4 gap-6 px-4 py-8 relative bg-white"
+            data-category="necklaces">
+          </div>
+        </div>
+      
+        <!-- Ring Products -->
+        <div class="product-section w-full" id="rings-container">
+          <div class="product-list visible grid grid-cols-4 gap-6 px-4 py-8 relative bg-white"
+            data-category="rings">
+          </div>
+        </div>
+      
+        <!-- Watch Products -->
+        <div class="product-section w-full" id="watches-container">
+          <div class="product-list visible grid grid-cols-4 gap-6 px-4 py-8 relative bg-white"
+            data-category="watches">
+          </div>
+        </div>
+      </section>
+
+    
+    <main class=" mx-auto relative ">
+    <!-- Product Description Section -->
+    <section class="max-w-7xl grid grid-cols-1 lg:grid-cols-2 gap-12 container mx-auto mb-32 px-4 lg:px-8 py-8">
+        <!-- Left Side - Image Gallery -->
+        <article class="flex flex-col items-center gap-6">
+            <div class="w-full max-w-[530px] aspect-square overflow-hidden">
+                <img 
+                    src="" 
+                    alt="Product Main Image" 
+                    width="530" 
+                    height="530" 
+                    class="w-full h-full object-cover shadow-lg transition-transform duration-200"
+                >
+            </div>
+            <div class="flex justify-center gap-4 w-full max-w-[530px] flex-wrap">
+            </div>
+        </article>
+    
+        <!-- Right Side - Product Details -->
+        <article class="flex flex-col text-center gap-5 lg:text-left lg:justify-evenly lg:h-[530px] font-inria">
+            <div class="space-y-2">
+                <h1 class="text-4xl font-montaga"></h1>
+                <p class="text-gray_used_in_small_text">Out of Stock</p>
+                <p class="text-2xl text-darkGolden"></p>
+            </div>
+    
+            <p class="text-[#333333] mt-6 lg:mt-0">-- Shipping all over The World --</p>
+    
+            <div class="flex flex-wrap justify-center lg:justify-start gap-8 mt-6 lg:mt-0">
+                <div class="flex items-center gap-2">
+                    <label class="text-gray_used_in_small_text">Qty :</label>
+                    <div class="flex items-center border-2">
+                        <button class="w-8 h-8 bg-button_divs_background flex items-center justify-center quantity-btn" data-action="decrease">
+                            <img src="../images/Icons/minus.svg" alt="Decrease quantity">
+                        </button>
+                        <input type="text" value="1" class="w-12 h-8 text-center quantity-input" min="1" max="99">
+                        <button class="w-8 h-8 bg-button_divs_background flex items-center justify-center quantity-btn" data-action="increase">
+                            <img src="../images/Icons/plus.svg" alt="Increase quantity">
+                        </button>
+                    </div>
+                </div>
+    
+                <div class="flex items-center gap-2">
+                    <label class="text-gray_used_in_small_text">Size :</label>
+                    <div class="relative inline-block border-2">
+                        <select class="w-24 h-8 pl-3 pr-8 bg-white cursor-pointer focus:outline-none size-select">
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+                        <div class="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none bg-button_divs_background">
+                            <img src="../images/Icons/arrow down.svg" alt="Dropdown arrow" class="w-4 h-4">
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <p class="text-gray-700 max-w-md mx-auto lg:mx-0 mt-6 lg:mt-0 product-description"></p>
+    
+            <button class="add-to-cart-btn w-1/2 lg:w-full mx-auto rounded bg-button_divs_background py-4 text-xl font-medium mt-6 lg:mt-0 outline-none focus:ring-4 shadow-lg transform active:scale-75 transition-transform add-to-cart-btn">
+                Own This Piece
+            </button>
+        </article>
+    </section>
+
+    <!-- Brands Testimonials Section -->
+    <section id="testimonials" class="w-full bg-[#FBD65C] mb-32 px-6 font-inria">
+        <div class="mx-auto px-6 py-8">
+            <div class="flex flex-col md:flex-row items-center justify-between md:gap-8">
+
+                <!-- Quotes Container -->
+                <div class="w-full md:flex-1 min-h-[80px] relative flex items-center">
+                    <div class="w-full relative h-20 text-center md:text-left flex items-center">
+                        <p class="quote active absolute w-full left-0 text-xl md:text-2xl" data-brand="Chanel">
+                            "<span class="font-bold italic font-montaga">Eternia</span> captures timeless elegance and unmatched craftsmanship."
+                        </p>
+                        <p class="quote absolute w-full left-0 text-xl md:text-2xl" data-brand="LouisVuitton">
+                            "<span class="font-bold italic font-montaga">Eternia</span> redefines luxury with creativity and sophistication."
+                        </p>
+                        <p class="quote absolute w-full left-0 text-xl md:text-2xl" data-brand="Rolex">
+                            "<span class="font-bold italic font-montaga">Eternia</span> stands as a symbol of precision and luxury."
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Logos Container -->
+                <div class="flex items-center gap-8 md:gap-12">
+                    <div class="testimonial active cursor-pointer w-16 md:w-20" data-brand="Chanel">
+                        <img src="../images/brand logo/Chanel.png" alt="Chanel" class="w-full h-auto">
+                    </div>
+                    <div class="testimonial cursor-pointer w-16 md:w-20" data-brand="LouisVuitton">
+                        <img src="../images/brand logo/Louis viton.png" alt="Louis Vuitton" class="w-full h-auto">
+                    </div>
+                    <div class="testimonial cursor-pointer w-16 md:w-20" data-brand="Rolex">
+                        <img src="../images/brand logo/Rolex.png" alt="Rolex" class="w-full h-auto">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Category Suite -->
+    <section class="suite mb-32">
+        <div class="container mx-auto px-4 max-w-6xl py-8 font-inria">
+            <header class="mb-12">
+                <h1 class="text-4xl text-center font-montaga">The <span id="category-name">  </span> Suite</h1>
+            </header>
+            <main id="related-products" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            </main>
+        </div>
+    </section>
+    </main>
+
+    <!-- footer section -->
+    <footer class="font-inria flex flex-col items-center mb-5 gap-4 px-3 relative">
+        <a href="../../index.html"><img src="../images/Logo/logo-eternia-400-400.png" alt="" width="180" height="180"></a>
+        <div class="flex gap-4 text-goldenrod font-semibold text-xs sm:text-base lg:text-xl">
+            <a href="../../index.html">Home</a>
+            <a href="../html/All_Products.html">Our Catalog</a>
+            <a href="../html/About_Contact.html#contact-us">Contact Us</a>
+            <a href="../html/About_Contact.html">About Us</a>
+        </div>
+        <P class="font-montaga text-xs text-center sm:text-sm lg:text-xl">&copy; Eternia 2024. No rights can be derived from the data presented on this site.</P>
+        <div class="flex gap-4">
+            <img class="cursor-pointer" src="../images/Icons/facebook.svg" alt="our facebook social media page">
+            <img class="cursor-pointer" src="../images/Icons/instagram.svg" alt="our instagram social media page">
+            <img class="cursor-pointer" src="../images/Icons/twitter.svg" alt="our twitter social media page">
+        </div>
+    </footer>
+
+    <script src="../js/header.js"></script>
+    <script src="../js/Cart_pop_up.js"></script>
+    <script src="../js/Desc_page.js"></script>
+  </body>
+</html>

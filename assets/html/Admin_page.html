@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Eternia for luxury accessories for men and women " />
+    <meta name="keywords" content="Eternia, accessories, men,women,independent" />
+    <meta name="author" content="CIMA team" />
+    <title>ETERNIA || Administrator</title>
+
+    <link rel="stylesheet" href="../css/tailwind/output.css" />
+    <link rel="icon" href="../images/Logo/Favicon/fav-32-eternia.png" type="image/x-icon" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Montaga&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-gray-50 min-h-screen">
+    <!-- Header -->
+    <header class="bg-white shadow-sm">
+      <div class="max-w-7xl mx-auto px-4 py-4 sm:px-6 lg:px-8 flex justify-between items-center">
+        <h1
+          onclick="directBack()"
+          class="cursor-pointer text-2xl font-bold text-gray-900 font-montaga"
+        >
+          Eternia Dashboard
+        </h1>
+        <div class="flex items-center space-x-4">
+          <span class="text-sm text-gray-500">Admin Portal</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <!-- Stats Section -->
+      <section class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+        <div class="bg-white rounded-lg shadow p-6">
+          <div class="flex items-center">
+            <div class="p-3 rounded-full bg-blue-100 text-blue-600">
+              <i class="fas fa-box fa-lg"></i>
+            </div>
+            <div class="ml-4">
+              <p class="text-sm font-medium text-gray-500">Total Products</p>
+              <p class="text-2xl font-semibold text-gray-900" id="totalProducts">0</p>
+            </div>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg shadow p-6">
+          <div class="flex items-center">
+            <div class="p-3 rounded-full bg-green-100 text-green-600">
+              <i class="fas fa-check-circle fa-lg"></i>
+            </div>
+            <div class="ml-4">
+              <p class="text-sm font-medium text-gray-500">In Stock</p>
+              <p class="text-2xl font-semibold text-gray-900" id="inStockCount">0</p>
+            </div>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg shadow p-6">
+          <div class="flex items-center">
+            <div class="p-3 rounded-full bg-red-100 text-red-600">
+              <i class="fas fa-times-circle fa-lg"></i>
+            </div>
+            <div class="ml-4">
+              <p class="text-sm font-medium text-gray-500">Out of Stock</p>
+              <p class="text-2xl font-semibold text-gray-900" id="outOfStockCount">0</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Product Management Section -->
+      <section id="product-management" class="bg-white rounded-lg shadow">
+        <div class="p-6 border-b border-gray-200">
+          <div class="flex justify-between items-center">
+            <h2 class="text-xl font-semibold text-gray-900 font-montaga">Product Management</h2>
+            <button
+              onclick="toggleForm()"
+              class="font-inria rounded bg-button_divs_background text-xl font-medium mt-6 lg:mt-0 outline-none focus:ring-4 shadow-lg transform active:scale-75 transition-transform px-4 py-2 flex items-center"
+            >
+              Add Product
+            </button>
+          </div>
+        </div>
+        <div id="product-management-filter" class="p-6 border-b border-gray-200">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+            <!-- Search Input -->
+            <div>
+              <label class="block text-sm font-medium text-gray-700">Search by Name</label>
+              <div class="mt-1 relative rounded-md shadow-sm">
+                <input
+                  type="text"
+                  id="searchInput"
+                  class="p-2 block w-full rounded-md border shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                  placeholder="Search products..."
+                />
+              </div>
+            </div>
+
+            <!-- Category Filter -->
+            <div>
+              <label class="block text-sm font-medium text-gray-700">Category</label>
+              <select
+                id="categoryFilter"
+                class="p-2 mt-1 block w-full rounded-md border shadow-sm focus:border-blue-500 focus:ring-blue-500"
+              >
+                <option value="all">All Categories</option>
+                <option value="rings">Rings</option>
+                <option value="necklaces">Necklaces</option>
+                <option value="bracelets">Bracelets</option>
+                <option value="watches">Watches</option>
+              </select>
+            </div>
+
+            <!-- Gender Filter -->
+            <div>
+              <label class="block text-sm font-medium text-gray-700">Gender</label>
+              <select
+                id="genderFilter"
+                class="p-2 mt-1 block w-full rounded-md border shadow-sm focus:border-blue-500 focus:ring-blue-500"
+              >
+                <option value="all">All</option>
+                <option value="men">Men</option>
+                <option value="women">Women</option>
+              </select>
+            </div>
+
+            <!-- Sort Options -->
+            <div>
+              <label class="block text-sm font-medium text-gray-700">Sort By</label>
+              <select
+                id="sortOptions"
+                class="p-2 mt-1 block w-full rounded-md border shadow-sm focus:border-blue-500 focus:ring-blue-500"
+              >
+                <option value="none">None</option>
+                <option value="name-asc">Name (A-Z)</option>
+                <option value="name-desc">Name (Z-A)</option>
+                <option value="price-asc">Price (Low to High)</option>
+                <option value="price-desc">Price (High to Low)</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- Add/Edit Form section -->
+      <section id="productForm" class="hidden p-6 border-b border-gray-200 bg-gray-50">
+        <form onsubmit="handleSubmit(event)" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <input type="hidden" id="productId" />
+          <div>
+            <label class="block text-sm font-medium text-gray-700">Product Name</label>
+            <input
+              type="text"
+              id="name"
+              required
+              class="mt-1 p-2 block w-full rounded-md border shadow-sm focus:border-blue-500 focus:ring-blue-500"
+            />
+          </div>
+          <div>
+            <label class="block text-sm font-medium text-gray-700">Category</label>
+            <select
+              id="category"
+              required
+              class="mt-1 p-2 block w-full rounded-md border shadow-sm focus:border-blue-500 focus:ring-blue-500"
+            >
+              <option value="" disabled selected>Select a category</option>
+              <option value="ring">Rings</option>
+              <option value="necklace">Necklaces</option>
+              <option value="bracelet">Bracelets</option>
+              <option value="watches">Watches</option>
+            </select>
+          </div>
+          <div>
+            <label class="block text-sm font-medium text-gray-700">Price</label>
+            <input
+                type="number"
+                id="price"
+                required
+                min="0"
+                step="0.01"
+                placeholder="Enter price"
+                class="mt-1 p-2 block w-full rounded-md border shadow-sm focus:border-blue-500 focus:ring-blue-500"
+            />
+        </div>
+          <div>
+            <label class="block text-sm font-medium text-gray-700">Stock Status</label>
+            <select
+              id="inStock"
+              required
+              class="mt-1 p-2 block w-full rounded-md border shadow-sm focus:border-blue-500 focus:ring-blue-500"
+            >
+              <option value="true">In Stock</option>
+              <option value="false">Out of Stock</option>
+            </select>
+          </div>
+          <div>
+            <label class="block text-sm font-medium text-gray-700">Gender</label>
+            <select
+                id="gender"
+                required
+                class="mt-1 p-2 block w-full rounded-md border shadow-sm focus:border-blue-500 focus:ring-blue-500"
+            >
+                <option value="" disabled selected>Select a gender</option>
+                <option value="men">Men</option>
+                <option value="women">Women</option>
+            </select>
+        </div>
+          <div class="md:col-span-2">
+            <label class="block text-sm font-medium text-gray-700">Description</label>
+            <textarea
+              id="description"
+              required
+              rows="3"
+              class="mt-1 block w-full rounded-md border shadow-sm focus:border-blue-500 focus:ring-blue-500"
+            ></textarea>
+          </div>
+          <div class="md:col-span-2 flex justify-end space-x-3 items-end">
+            <button type="button" onclick="toggleForm()" class="px-4 py-2 underline">
+              Cancel
+            </button>
+            <button
+              type="submit"
+              class="font-inria rounded bg-button_divs_background text-xl font-medium mt-6 lg:mt-0 outline-none focus:ring-4 shadow-lg transform active:scale-75 transition-transform px-4 py-2 flex items-center"
+            >
+              Save Product
+            </button>
+          </div>
+        </form>
+      </section>
+      
+      <!-- Products Table -->
+      <section class="overflow-x-auto">
+        <table class="min-w-full divide-y divide-gray-200">
+          <thead class="bg-gray-50">
+            <tr>
+              <th
+                class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+              >
+                Product
+              </th>
+              <th
+                class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+              >
+                Category
+              </th>
+              <th
+                class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+              >
+                Gender
+              </th>
+              <th
+                class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+              >
+                Price
+              </th>
+              <th
+                class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+              >
+                Status
+              </th>
+              <th
+                class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+              >
+                Actions
+              </th>
+            </tr>
+          </thead>
+          <tbody class="bg-white divide-y divide-gray-200 font-inria" id="productTable">
+            <!-- Products will be inserted here -->
+          </tbody>
+        </table>
+      </section>
+    </main>
+
+    <!-- footer section -->
+    <footer class="font-inria flex flex-col items-center mb-5 gap-4 px-3">
+      <a href="index.html"
+        ><img src="../images/Logo/logo-eternia-400-400.png" alt="" width="180" height="180"
+      /></a>
+      <div class="flex gap-4 text-goldenrod font-semibold text-xs sm:text-base lg:text-xl">
+        <a href="../../index.html">Home</a>
+        <a href="../html/All_Products.html">Our Catalog</a>
+        <a href="../html/About_Contact.html#contact-us">Contact Us</a>
+        <a href="../html/About_Contact.html">About Us</a>
+      </div>
+      <p class="font-montaga text-xs text-center sm:text-sm lg:text-xl">
+        &copy; Eternia 2024. No rights can be derived fromthe data presented on this site.
+      </p>
+      <div class="flex gap-4">
+        <img
+          class="cursor-pointer"
+          src="../images/Icons/facebook.svg"
+          alt="our facebook social media page"
+        />
+        <img
+          class="cursor-pointer"
+          src="../images/Icons/instagram.svg"
+          alt="our instagram social media page"
+        />
+        <img
+          class="cursor-pointer"
+          src="../images/Icons/twitter.svg"
+          alt="our twitter social media page"
+        />
+      </div>
+    </footer>
+
+    <script src="../js/Admin.js"></script>
+    <script src="../js/Cart_pop_up.js"></script>
+  </body>
+</html>
